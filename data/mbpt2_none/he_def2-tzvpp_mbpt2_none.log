@@ -1,0 +1,124 @@
+
+
+******** <class 'pyscf.scf.hf.RHF'> flags ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level shift factor = 0
+Do DIIS = True
+DIIS start cycle = 1
+DIIS space = 8
+SCF tol = 1e-09
+SCF gradient tol = None
+max. SCF cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpzpiJmG
+max_memory 4000 MB (current use 39 MB)
+Set gradient conv threshold to 3.16228e-05
+Nelec from initial guess = 1.99958
+cond(S) = 16.1466106102
+E_coul = 1.02368677435079
+init E= -2.85934749153542
+    CPU time for initialize scf      0.02 sec, wall time      0.06 sec
+  HOMO = -0.918094898055326  LUMO = 0.828698179331661
+  mo_energy =
+[-0.9180949   0.82869818  1.4989378   1.4989378   1.4989378   6.31149337
+  6.35523092  6.35523092  6.35523092  6.35523092  6.35523092  7.8460624
+  7.8460624   7.8460624 ]
+E_coul = 1.02560175095294
+cycle= 1 E= -2.85989288814588  delta_E= -0.000545  |g|= 0.00433  |ddm|= 0.0209
+    CPU time for cycle= 1      0.00 sec, wall time      0.00 sec
+diis-norm(errvec)=0.00343286
+diis-c [ -1.17845157e-05   1.00000000e+00]
+  HOMO = -0.917146655917434  LUMO = 0.829445270660817
+  mo_energy =
+[-0.91714666  0.82944527  1.50041538  1.50041538  1.50041538  6.31358157
+  6.35741155  6.35741155  6.35741155  6.35741155  6.35741155  7.84801766
+  7.84801766  7.84801766]
+E_coul = 1.02605601196944
+cycle= 2 E= -2.8598953724676  delta_E= -2.48e-06  |g|= 0.000558  |ddm|= 0.00296
+    CPU time for cycle= 2      0.01 sec, wall time      0.00 sec
+diis-norm(errvec)=0.000430398
+diis-c [ -2.55756450e-08  -1.31895176e-01   1.13189518e+00]
+  HOMO = -0.916889772300717  LUMO = 0.829571693653474
+  mo_energy =
+[-0.91688977  0.82957169  1.50071678  1.50071678  1.50071678  6.31414911
+  6.35787901  6.35787901  6.35787901  6.35787901  6.35787901  7.84856346
+  7.84856346  7.84856346]
+E_coul = 1.02615056078806
+cycle= 3 E= -2.85989542561269  delta_E= -5.31e-08  |g|= 1.68e-05  |ddm|= 0.000498
+    CPU time for cycle= 3      0.00 sec, wall time      0.00 sec
+diis-norm(errvec)=1.58948e-05
+diis-c [ -1.66533454e-16   9.29045450e-03  -1.02232736e-01   1.09294228e+00]
+  HOMO = -0.916870147292355  LUMO = 0.829579765854806
+  mo_energy =
+[-0.91687015  0.82957977  1.5007362   1.5007362   1.5007362   6.31419243
+  6.3579095   6.3579095   6.3579095   6.3579095   6.3579095   7.84860595
+  7.84860595  7.84860595]
+E_coul = 1.02615513019329
+cycle= 4 E= -2.85989542568444  delta_E= -7.18e-11  |g|= 1.7e-09  |ddm|= 1.9e-05
+    CPU time for cycle= 4      0.00 sec, wall time      0.00 sec
+  HOMO = -0.916870147745577  LUMO = 0.82957976805647
+  mo_energy =
+[-0.91687015  0.82957977  1.5007362   1.5007362   1.5007362   6.31419244
+  6.3579095   6.3579095   6.3579095   6.3579095   6.3579095   7.84860596
+  7.84860596  7.84860596]
+    CPU time for scf_cycle      0.03 sec, wall time      0.08 sec
+    CPU time for SCF      0.03 sec, wall time      0.08 sec
+converged SCF energy = -2.85989542568444
+RHF E = -2.85989542568
+RHF eps = [-0.91687015  0.82957977  1.5007362   1.5007362   1.5007362   6.31419244
+  6.3579095   6.3579095   6.3579095   6.3579095   6.3579095   7.84860596
+  7.84860596  7.84860596]
+    CPU time for CCSD integral transformation      0.03 sec, wall time      0.10 sec
+
+******** <class 'pyscf.cc.rccsd_slow.RCCSD'> flags ********
+CCSD nocc = 1, nvir = 13
+max_cycle = 50
+direct = 0
+conv_tol = 1e-07
+conv_tol_normt = 1e-05
+diis_space = 6
+diis_start_cycle = 0
+diis_start_energy_diff = 1e+09
+Init t2, MP2 energy = -0.0331914981991207
+    CPU time for init mp2      0.00 sec, wall time      0.00 sec
+E(MBPT2) = -2.893086923883562  E_corr = -0.03319149819912067
+    CPU time for EOM-CCSD shared one-electron intermediates      0.00 sec, wall time      0.00 sec
+    CPU time for EOM-CCSD shared two-electron intermediates      0.00 sec, wall time      0.00 sec
+    CPU time for EOM-CCSD IP intermediates      0.00 sec, wall time      0.00 sec
+tol 1e-07  toloose 0.000316228
+max_cycle 50  max_space 23  max_memory 2000  incore True
+davidson 0 1  |r|= 0.323  e= [ 0.95006165]  max|de|= 0.95  lindep=    1
+davidson 1 2  |r|= 0.0527  e= [ 0.8958382]  max|de|= -0.0542  lindep= 0.93
+davidson 2 3  |r|= 3.45e-16  e= [ 0.89532797]  max|de|= -0.00051  lindep=    1
+Linear dependency in trial subspace. |r| for each state [3.4471711410754212e-16]
+IP root 0 E = 0.8953279670406395  qpwt = 0.969202
+    CPU time for IP-CCSD      0.01 sec, wall time      0.01 sec
+    CPU time for EOM-CCSD shared one-electron intermediates      0.00 sec, wall time      0.00 sec
+    CPU time for EOM-CCSD EA intermediates      0.03 sec, wall time      0.03 sec
+tol 1e-07  toloose 0.000316228
+max_cycle 50  max_space 38  max_memory 2000  incore True
+davidson 0 6  |r|= 0.615  e= [ 0.83748101  1.50482721  1.50482721  1.50482721  6.31919784  6.35834733]  max|de|= 6.36  lindep=    1
+davidson 1 11  |r|= 0.323  e= [ 0.81413641  1.50482721  1.46110925  1.46112415  6.12595998  6.28276207]  max|de|= -0.193  lindep= 0.784
+davidson 2 17  |r|= 0.036  e= [ 0.81399284  1.46110981  1.46209281  1.46209305  6.13063723  6.28289767]  max|de|= -0.0437  lindep= 0.571
+davidson 3 23  |r|= 0.00343  e= [ 0.8139952   1.46209294  1.46201522  1.46201515  6.13053261  6.28284183]  max|de|= 0.000983  lindep= 0.628
+davidson 4 29  |r|= 0.000153  e= [ 0.81399501  1.46201522  1.46202255  1.46202256  6.13053675  6.28285609]  max|de|= -7.77e-05  lindep= 0.627
+root 0 converged  |r|= 3.6e-09  e= 0.813995010976  max|de|= 4.33e-10
+root 4 converged  |r|= 5.4e-07  e= 6.13053673461  max|de|= -1.38e-08
+davidson 5 35  |r|= 3.06e-05  e= [ 0.81399501  1.46202255  1.46202244  1.46202244  6.13053673  6.2828659 ]  max|de|= 9.81e-06  lindep= 0.422
+root 0 converged  |r|= 3.6e-09  e= 0.813995010976  max|de|= -2.78e-15
+root 1 converged  |r|= 1.19e-05  e= 1.46202254624  max|de|= -5.33e-15
+root 2 converged  |r|= 5.02e-07  e= 1.46202243585  max|de|= -3.11e-15
+root 3 converged  |r|= 4.99e-07  e= 1.46202243604  max|de|= 6.66e-16
+root 4 converged  |r|= 5.4e-07  e= 6.13053673461  max|de|= -9.77e-15
+root 5 converged  |r|= 3.06e-05  e= 6.28286589827  max|de|= -1.78e-14
+converge 6 6  |r|= 3.06e-05  e= [ 0.81399501  1.46202255  1.46202244  1.46202244  6.13053673  6.2828659 ]  max|de|= -1.78e-14
+EA root 0 E = 0.8139950109758836  qpwt = 0.989199
+EA root 1 E = 1.462022546236819  qpwt = 0.988725
+EA root 2 E = 1.462022435852717  qpwt = 0.988725
+EA root 3 E = 1.462022436037685  qpwt = 0.988725
+EA root 4 E = 6.130536734611963  qpwt = 0.891887
+EA root 5 E = 6.28286589827287  qpwt = 0.961157
+    CPU time for EA-CCSD      0.21 sec, wall time      0.22 sec

@@ -1,0 +1,100 @@
+he	He	helium
+ne	Ne	neon
+ar	Ar	argon
+kr	Kr	krypton
+xe	Xe	xenon
+h2	H$_2$	hydrogen
+li2	Li$_2$	lithium dimer
+na2	Na$_2$	sodium dimer
+na4	Na$_4$	sodium tetramer
+na6	Na$_6$	sodium hexamer
+k2	K$_2$	potassium dimer
+rb2	Rb$_2$	rubidium dimer
+n2	N$_2$	nitrogen
+p2	P$_2$	phosphorus dimer
+as2	As$_2$	arsenic dimer
+f2	F$_2$	fluorine
+cl2	Cl$_2$	chlorine
+br2	Br$_2$	bromine
+i2	I$_2$	iodine
+ch4	CH$_4$	methane
+c2h6	C$_2$H$_6$	ethane
+c3h8	C$_3$H$_8$	propane
+c4h10	C$_4$H$_{10}$	butane
+c2h4	C$_2$H$_4$	ethlyene
+c2h2	C$_2$H$_2$	ethyne
+c4	C$_4$	tetracarbon
+c3h6	C$_3$H$_6$	cyclopropane
+c6h6	C$_6$H$_6$	benzene
+c8h8	C$_8$H$_8$	cyclooctatetraene
+c5h6	C$_5$H$_6$	cyclopentadiene
+c2h3f	C$_2$H$_3$F	vinyl fluoride
+c2h3cl	C$_2$H$_3$Cl	vinyl chloride
+c2h3br	C$_2$H$_3$Br	vinyl bromide
+c2h3i	C$_2$H$_3$I	vinyl iodide
+cf4	CF$_4$	tetrafluoromethane
+ccl4	CCl$_4$	tetrachloromethane
+cbr4	CBr$_4$	tetrabromomethane
+ci4	CI$_4$	tetraiodomethane
+sih4	SiH$_4$	silane
+geh4	GeH$_4$	germane
+si2h6	Si$_2$H$_6$	disilane
+si5h12	Si$_5$H$_{12}$	pentasilane
+lih	LiH	lithium hydride
+kh	KH	potassium hydride
+bh3	BH$_3$	borane
+b2h6	B$_2$H$_6$	diborane
+nh3	NH$_3$	ammonia
+hn3	HN$_3$	hydrazoic acid
+ph3	PH$_3$	phosphine
+ash3	AsH$_3$	arsine
+sh2	SH$_2$	hydrogen sulfide
+fh	FH	hydrogen fluoride
+clh	ClH	hydrogen chloride
+lif	LiF	lithium fluoride
+f2mg	F$_2$Mg	magnesium fluoride
+tif4	TiF$_4$	titanium fluoride
+alf3	AlF$_3$	aluminum fluoride
+bf	BF	boron monofluoride
+sf4	SF$_4$	sulfur tetrafluoride
+brk	BrK	potassium bromide
+gacl	GaCl	gallium monochloride
+nacl	NaCl	sodium chloride
+mgcl2	MgCl$_2$	magnesium chloride
+ali3	AlI$_3$	aluminum chloride
+bn	BN	boron nitride
+nch	NCH	hydrogen cyanide
+pn	PN	phosphorus mononitride
+h2nnh2	H$_2$NNH$_2$	hydrazine
+h2co	H$_2$CO	formaldehyde
+c2h4o	CH$_4$O	methanol
+c2h6o	C$_2$H$_6$O	ethanol
+c2h4o	C$_2$H$_4$O	acetaldehyde
+c4h10o	C$_4$H$_{10}$O	ethoxy ethane
+ch2o2	CH$_2$O$_2$	formic acid
+hooh	HOOH	hydrogen peroxide
+h2o	H$_2$O	water
+co2	CO$_2$	carbon dioxide
+cs2	CS$_2$	carbon disulfide
+ocs	OCS	carbon oxide sulfide
+ocse	OCSe	carbon oxide selenide
+co	CO	carbon monoxide
+o3	O$_3$	ozone
+so2	SO$_2$	sulfur dioxide
+beo	BeO	beryllium monoxide
+mgo	MgO	magnesium monoxide
+c7h8	C$_7$H$_8$	toluene
+c8h10	C$_8$H$_{10}$	ethylbenzene
+c6f6	C$_6$F$_6$	hexafluorobenzene
+c6h5oh	C$_6$H$_5$OH	phenol
+c6h5nh2	C$_6$H$_5$NH$_2$	aniline
+c5h5n	C$_5$H$_5$N	pyridine
+c5h5n5o	C$_5$H$_5$N$_5$O	guanine
+c5h5n5	C$_5$H$_5$N$_5$	adenine
+c4h5n3o	C$_4$H$_5$N$_3$O	cytosine
+c5h6n2o2	C$_5$H$_6$N$_2$O$_2$	thymine
+c4h4n2o2	C$_4$H$_4$N$_2$O$_2$	uracil
+con2h4	CH$_4$N$_2$O	urea
+ag2	Ag$_2$	silver dimer
+cu2	Cu$_2$	copper dimer
+nccu	NCCu	copper cyanide

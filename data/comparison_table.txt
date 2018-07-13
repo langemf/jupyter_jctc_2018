@@ -1,0 +1,15 @@
+\begin{table}[t]
+\begin{tabular}{l r r r r}
+\hline\hline
+Method & IP ME (eV) & IP MAE (eV) & EA ME (eV) & EA MAE (eV) \\
+\hline
+P-EOM-CC2 & -0.00 & 0.08 & -0.08 & 0.12 \\
+EOM-CC2 & -0.03 & 0.11 & 0.00 & 0.14 \\
+EOM-linCCSD & 0.08 & 0.15 & 0.13 & 0.14 \\
+P-EOM-MBPT2 & -0.03 & 0.08 & -0.08 & 0.16 \\
+EOM-MBPT2 & -0.04 & 0.08 & 0.03 & 0.13 \\
+\hline\hline
+\label{tab:approxips}
+\end{tabular}
+\caption{Mean error (ME) and mean absolute error (MAE) in eV of ionization potentals (IPs) and electron affinities (EAs) for molecules contained in the GW100 test set.  Error metrics are calculated with respect  to  IP/EA-EOM-CCSD  without  approximation,  except  for the GW results from Ref. 34,  which are calculated with respect to $\Delta$CCSD(T) results from Ref. 33.}
+\end{table}

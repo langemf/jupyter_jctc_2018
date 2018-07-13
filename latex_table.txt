@@ -1,0 +1,108 @@
+\begin{longtable*}{@{\extracolsep{\fill}} l l r r r r r r }
+\hline\hline
+Formula & Name  & HOMO-2  & HOMO-1  & HOMO  & LUMO  & LUMO+1  & LUMO+2   \\
+\hline
+He  &  helium   &  & &  $-24.51$ $(\times 1)$&  $22.22$ $(\times 1)$ &  $39.82$ $(\times 3)$ &  $166.90$ $(\times 1)$  \\
+Ne  &  neon   & &  $-48.33$ $(\times 1)$&  $-21.21$ $(\times 3)$ &  $20.84$ $(\times 1)$ &  $21.87$ $(\times 3)$ &  $74.27$ $(\times 5)$  \\
+Ar  &  argon   & &  $-29.58$ $(\times 1)$&  $-15.63$ $(\times 3)$ &  $14.73$ $(\times 3)$ &  $17.19$ $(\times 5)$ &  $20.69$ $(\times 1)$  \\
+Kr  &  krypton   & &  $-27.14$ $(\times 1)$&  $-13.98$ $(\times 3)$ &  $10.41$ $(\times 3)$ &  $12.24$ $(\times 5)$ &  $18.78$ $(\times 1)$  \\
+Xe  &  xenon   & &  $-23.67$ $(\times 1)$&  $-12.23$ $(\times 3)$ &  $7.72$ $(\times 3)$ &  $8.91$ $(\times 5)$ &  $12.29$ $(\times 1)$  \\
+H$_2$  &  hydrogen   &  & &  $-16.40$ $(\times 1)$&  $4.22$ $(\times 1)$ &  $8.05$ $(\times 1)$ &  $16.04$ $(\times 1)$  \\
+Li$_2$  &  lithium dimer  &  $-63.39$ $(\times 1)$&  $-63.38$ $(\times 1)$ &  $-5.27$ $(\times 1)$ &  $-0.12$ $(\times 1)$ &  $0.99$ $(\times 2)$ &  $1.00$ $(\times 1)$  \\
+Na$_2$  &  sodium dimer  &  $-37.24$ $(\times 2)$ &  $-37.21$ $(\times 1)$ &  $-4.94$ $(\times 1)$ &  $-0.26$ $(\times 1)$ &  $0.60$ $(\times 2)$ &  $0.78$ $(\times 1)$  \\
+Na$_4$  &  sodium tetramer  &  $-36.60$ $(\times 1)$&  $-5.59$ $(\times 1)$ &  $-4.25$ $(\times 1)$ &  $0.10$ $(\times 1)$ &  $-0.10$ $(\times 1)$ &  $-0.53$ $(\times 1)$  \\
+Na$_6$  &  sodium hexamer  &  $-36.52$ $(\times 1)$&  $-5.68$ $(\times 1)$ &  $-4.37$ $(\times 2)$ &  $-0.07$ $(\times 1)$ &  $-0.34$ $(\times 2)$ &  $0.48$ $(\times 2)$  \\
+K$_2$  &  potassium dimer  &  $-23.83$ $(\times 2)$ &  $-23.77$ $(\times 1)$ &  $-4.08$ $(\times 1)$ &  $-0.32$ $(\times 1)$ &  $0.77$ $(\times 1)$ &  $0.83$ $(\times 2)$  \\
+Rb$_2$  &  rubidium dimer  &  $-20.09$ $(\times 2)$ &  $-20.02$ $(\times 1)$ &  $-3.93$ $(\times 1)$ &  $0.18$ $(\times 2)$ &  $0.35$ $(\times 1)$ &  $-0.37$ $(\times 1)$  \\
+N$_2$  &  nitrogen  &  $-18.84$ $(\times 1)$ &  $-17.21$ $(\times 2)$ &  $-15.60$ $(\times 1)$ &  $3.05$ $(\times 2)$ &  $8.97$ $(\times 1)$ &  $9.47$ $(\times 1)$  \\
+P$_2$  &  phosphorus dimer  &  $-14.79$ $(\times 1)$ &  $-10.75$ $(\times 1)$ &  $-10.59$ $(\times 2)$ &  $-0.10$ $(\times 2)$ &  $3.47$ $(\times 1)$ &  $6.30$ $(\times 1)$  \\
+As$_2$  &  arsenic dimer  &  $-14.64$ $(\times 1)$ &  $-10.14$ $(\times 1)$ &  $-9.91$ $(\times 2)$ &  $-0.26$ $(\times 2)$ &  $3.31$ $(\times 1)$ &  $6.88$ $(\times 1)$  \\
+F$_2$  &  fluorine  &  $-21.09$ $(\times 1)$ &  $-18.85$ $(\times 2)$ &  $-15.53$ $(\times 2)$ &  $0.39$ $(\times 1)$ &  $15.34$ $(\times 1)$ &  $15.34$ $(\times 1)$  \\
+Cl$_2$  &  chlorine  &  $-15.98$ $(\times 1)$ &  $-14.41$ $(\times 2)$ &  $-11.46$ $(\times 2)$ &  $-0.19$ $(\times 1)$ &  $9.10$ $(\times 1)$ &  $10.03$ $(\times 1)$  \\
+Br$_2$  &  bromine  &  $-14.44$ $(\times 1)$ &  $-12.89$ $(\times 2)$ &  $-10.54$ $(\times 2)$ &  $-0.94$ $(\times 1)$ &  $7.05$ $(\times 1)$ &  $7.09$ $(\times 1)$  \\
+I$_2$  &  iodine  &  $-12.76$ $(\times 1)$ &  $-11.38$ $(\times 2)$ &  $-9.55$ $(\times 2)$ &  $-1.50$ $(\times 1)$ &  $5.10$ $(\times 1)$ &  $5.15$ $(\times 1)$  \\
+CH$_4$  &  methane   & &  $-23.38$ $(\times 1)$&  $-14.38$ $(\times 3)$ &  $3.45$ $(\times 1)$ &  $5.79$ $(\times 3)$ &  $7.88$ $(\times 3)$  \\
+C$_2$H$_6$  &  ethane  &  $-13.05$ $(\times 1)$ &  $-12.71$ $(\times 1)$ &  $-12.71$ $(\times 1)$ &  $3.11$ $(\times 1)$ &  $4.21$ $(\times 1)$ &  $5.24$ $(\times 2)$  \\
+C$_3$H$_8$  &  propane  &  $-12.25$ $(\times 1)$ &  $-12.12$ $(\times 1)$ &  $-12.05$ $(\times 1)$ &  $2.95$ $(\times 1)$ &  $4.13$ $(\times 1)$ &  $4.32$ $(\times 1)$  \\
+C$_4$H$_{10}$  &  butane  &  $-11.92$ $(\times 1)$ &  $-11.81$ $(\times 1)$ &  $-11.56$ $(\times 1)$ &  $2.88$ $(\times 1)$ &  $3.46$ $(\times 1)$ &  $4.12$ $(\times 1)$  \\
+C$_2$H$_4$  &  ethlyene  &  $-14.91$ $(\times 1)$ &  $-13.11$ $(\times 1)$ &  $-10.69$ $(\times 1)$ &  $2.63$ $(\times 1)$ &  $3.94$ $(\times 1)$ &  $4.60$ $(\times 1)$  \\
+C$_2$H$_2$  &  ethyne  &  $-19.13$ $(\times 1)$ &  $-17.23$ $(\times 1)$ &  $-11.55$ $(\times 2)$ &  $3.50$ $(\times 2)$ &  $3.58$ $(\times 1)$ &  $4.53$ $(\times 1)$  \\
+C$_4$  &  tetracarbon  &  $-14.65$ $(\times 1)$ &  $-11.46$ $(\times 1)$ &  $-11.27$ $(\times 1)$ &  $-0.01$ $(\times 1)$ &  $1.71$ $(\times 1)$ &  $-2.36$ $(\times 1)$  \\
+C$_3$H$_6$  &  cyclopropane  &  $-13.14$ $(\times 1)$ &  $-10.86$ $(\times 1)$ &  $-10.85$ $(\times 1)$ &  $3.46$ $(\times 1)$ &  $3.96$ $(\times 1)$ &  $4.10$ $(\times 1)$  \\
+C$_6$H$_6$  &  benzene  &  $-12.14$ $(\times 2)$ &  $-9.32$ $(\times 1)$ &  $-9.32$ $(\times 1)$ &  $1.78$ $(\times 2)$ &  $3.11$ $(\times 1)$ &  $4.00$ $(\times 2)$  \\
+C$_8$H$_8$  &  cyclooctatetraene  &  $-10.01$ $(\times 1)$ &  $-10.00$ $(\times 1)$ &  $-8.40$ $(\times 1)$ &  $0.79$ $(\times 1)$ &  $2.52$ $(\times 1)$ &  $2.54$ $(\times 1)$  \\
+C$_5$H$_6$  &  cyclopentadiene  &  $-12.52$ $(\times 1)$ &  $-11.03$ $(\times 1)$ &  $-8.69$ $(\times 1)$ &  $1.77$ $(\times 1)$ &  $3.27$ $(\times 1)$ &  $4.06$ $(\times 1)$  \\
+C$_2$H$_3$F  &  vinyl fluoride  &  $-14.79$ $(\times 1)$ &  $-13.86$ $(\times 1)$ &  $-10.60$ $(\times 1)$ &  $2.80$ $(\times 1)$ &  $3.93$ $(\times 1)$ &  $4.34$ $(\times 1)$  \\
+C$_2$H$_3$Cl  &  vinyl chloride  &  $-13.21$ $(\times 1)$ &  $-11.65$ $(\times 1)$ &  $-10.13$ $(\times 1)$ &  $2.12$ $(\times 1)$ &  $3.49$ $(\times 1)$ &  $3.84$ $(\times 1)$  \\
+C$_2$H$_3$Br  &  vinyl bromide  &  $-13.38$ $(\times 1)$ &  $-10.71$ $(\times 1)$ &  $-9.29$ $(\times 1)$ &  $2.02$ $(\times 1)$ &  $3.55$ $(\times 1)$ &  $4.27$ $(\times 1)$  \\
+C$_2$H$_3$I  &  vinyl iodide  &  $-11.71$ $(\times 1)$ &  $-9.92$ $(\times 1)$ &  $-9.36$ $(\times 1)$ &  $1.40$ $(\times 1)$ &  $1.75$ $(\times 1)$ &  $3.59$ $(\times 1)$  \\
+CF$_4$  &  tetrafluoromethane  &  $-18.35$ $(\times 2)$ &  $-17.37$ $(\times 3)$ &  $-16.24$ $(\times 3)$ &  $4.89$ $(\times 1)$ &  $6.86$ $(\times 3)$ &  $9.20$ $(\times 3)$  \\
+CCl$_4$  &  tetrachloromethane  &  $-13.40$ $(\times 2)$ &  $-12.46$ $(\times 3)$ &  $-11.60$ $(\times 3)$ &  $0.86$ $(\times 1)$ &  $2.20$ $(\times 3)$ &  $5.20$ $(\times 1)$  \\
+CBr$_4$  &  tetrabromomethane  &  $-12.13$ $(\times 2)$ &  $-11.25$ $(\times 3)$ &  $-10.48$ $(\times 3)$ &  $-0.49$ $(\times 1)$ &  $1.21$ $(\times 3)$ &  $4.60$ $(\times 1)$  \\
+CI$_4$  &  tetraiodomethane   & &  $-9.99$ $(\times 3)$&  $-9.30$ $(\times 3)$ &  $0.34$ $(\times 3)$ &  $-1.62$ $(\times 1)$ &  $4.73$ $(\times 2)$ \\
+SiH$_4$  &  silane   & &  $-18.46$ $(\times 1)$&  $-12.84$ $(\times 3)$ &  $3.10$ $(\times 3)$ &  $3.71$ $(\times 1)$ &  $6.75$ $(\times 3)$  \\
+GeH$_4$  &  germane  &  $-38.07$ $(\times 1)$&  $-18.69$ $(\times 1)$ &  $-12.53$ $(\times 3)$ &  $3.16$ $(\times 1)$ &  $3.54$ $(\times 3)$ &  $7.04$ $(\times 2)$  \\
+Si$_2$H$_6$  &  disilane  &  $-12.25$ $(\times 1)$ &  $-12.25$ $(\times 1)$ &  $-10.71$ $(\times 1)$ &  $2.27$ $(\times 1)$ &  $2.28$ $(\times 2)$ &  $2.75$ $(\times 1)$  \\
+Si$_5$H$_{12}$  &  pentasilane  &  $-10.84$ $(\times 1)$ &  $-10.64$ $(\times 1)$ &  $-9.36$ $(\times 1)$ &  $0.79$ $(\times 1)$ &  $1.57$ $(\times 1)$ &  $1.61$ $(\times 1)$  \\
+LiH  &  lithium hydride   & &  $-64.54$ $(\times 1)$&  $-7.96$ $(\times 1)$ &  $0.09$ $(\times 1)$ &  $2.01$ $(\times 2)$ &  $3.41$ $(\times 1)$  \\
+KH  &  potassium hydride  &  $-24.59$ $(\times 2)$ &  $-24.38$ $(\times 1)$ &  $-6.13$ $(\times 1)$ &  $-0.04$ $(\times 1)$ &  $1.60$ $(\times 2)$ &  $1.90$ $(\times 1)$  \\
+BH$_3$  &  borane   & &  $-18.35$ $(\times 1)$&  $-13.31$ $(\times 2)$ &  $0.33$ $(\times 1)$ &  $3.36$ $(\times 1)$ &  $4.32$ $(\times 2)$  \\
+B$_2$H$_6$  &  diborane  &  $-14.00$ $(\times 1)$ &  $-13.48$ $(\times 1)$ &  $-12.29$ $(\times 1)$ &  $1.20$ $(\times 1)$ &  $2.51$ $(\times 1)$ &  $3.46$ $(\times 1)$  \\
+NH$_3$  &  ammonia  &  $-27.78$ $(\times 1)$&  $-16.52$ $(\times 2)$ &  $-10.77$ $(\times 1)$ &  $2.84$ $(\times 1)$ &  $5.26$ $(\times 2)$ &  $11.18$ $(\times 2)$  \\
+HN$_3$  &  hydrazoic acid  &  $-15.92$ $(\times 1)$ &  $-12.25$ $(\times 1)$ &  $-10.72$ $(\times 1)$ &  $2.02$ $(\times 1)$ &  $3.02$ $(\times 1)$ &  $3.17$ $(\times 1)$  \\
+PH$_3$  &  phosphine  &  $-20.25$ $(\times 1)$&  $-13.75$ $(\times 2)$ &  $-10.57$ $(\times 1)$ &  $2.95$ $(\times 1)$ &  $3.12$ $(\times 2)$ &  $7.11$ $(\times 2)$  \\
+AsH$_3$  &  arsine  &  $-19.82$ $(\times 1)$ &  $-13.18$ $(\times 2)$ &  $-10.42$ $(\times 1)$ &  $2.86$ $(\times 1)$ &  $3.01$ $(\times 2)$ &  $7.44$ $(\times 2)$  \\
+SH$_2$  &  hydrogen sulfide  &  $-15.65$ $(\times 1)$ &  $-13.39$ $(\times 1)$ &  $-10.35$ $(\times 1)$ &  $2.79$ $(\times 1)$ &  $3.20$ $(\times 1)$ &  $7.25$ $(\times 1)$  \\
+FH  &  hydrogen fluoride  &  $-39.30$ $(\times 1)$&  $-19.84$ $(\times 1)$ &  $-15.90$ $(\times 2)$ &  $3.07$ $(\times 1)$ &  $14.20$ $(\times 1)$ &  $17.24$ $(\times 1)$  \\
+ClH  &  hydrogen chloride  &  $-25.44$ $(\times 1)$&  $-16.65$ $(\times 1)$ &  $-12.64$ $(\times 2)$ &  $2.70$ $(\times 1)$ &  $7.91$ $(\times 1)$ &  $12.18$ $(\times 1)$  \\
+LiF  &  lithium fluoride  &  $-33.11$ $(\times 1)$ &  $-11.76$ $(\times 1)$ &  $-11.28$ $(\times 2)$ &  $-0.02$ $(\times 1)$ &  $2.74$ $(\times 2)$ &  $3.51$ $(\times 1)$  \\
+F$_2$Mg  &  magnesium fluoride  &  $-14.15$ $(\times 1)$ &  $-13.76$ $(\times 2)$ &  $-13.71$ $(\times 2)$ &  $-0.04$ $(\times 1)$ &  $1.94$ $(\times 2)$ &  $4.13$ $(\times 1)$  \\
+TiF$_4$  &  titanium fluoride  &  $-16.86$ $(\times 1)$ &  $-16.29$ $(\times 3)$ &  $-15.69$ $(\times 3)$ &  $0.07$ $(\times 3)$ &  $0.98$ $(\times 1)$ &  $-1.06$ $(\times 2)$  \\
+AlF$_3$  &  aluminum fluoride  &  $-16.08$ $(\times 2)$ &  $-15.86$ $(\times 2)$ &  $-15.31$ $(\times 1)$ &  $0.67$ $(\times 1)$ &  $1.86$ $(\times 1)$ &  $3.90$ $(\times 2)$  \\
+BF  &  boron monofluoride  &  $-21.27$ $(\times 1)$ &  $-18.16$ $(\times 2)$ &  $-11.20$ $(\times 1)$ &  $1.51$ $(\times 2)$ &  $3.29$ $(\times 1)$ &  $4.70$ $(\times 1)$  \\
+SF$_4$  &  sulfur tetrafluoride  &  $-15.26$ $(\times 1)$ &  $-15.04$ $(\times 1)$ &  $-12.70$ $(\times 1)$ &  $0.94$ $(\times 1)$ &  $3.79$ $(\times 1)$ &  $4.86$ $(\times 1)$  \\
+BrK  &  potassium bromide  &  $-19.37$ $(\times 1)$ &  $-8.41$ $(\times 1)$ &  $-8.17$ $(\times 2)$ &  $-0.45$ $(\times 1)$ &  $1.40$ $(\times 2)$ &  $1.73$ $(\times 1)$  \\
+GaCl  &  gallium monochloride  &  $-14.09$ $(\times 1)$ &  $-11.46$ $(\times 2)$ &  $-9.79$ $(\times 1)$ &  $0.27$ $(\times 2)$ &  $2.49$ $(\times 1)$ &  $6.60$ $(\times 1)$  \\
+NaCl  &  sodium chloride  &  $-20.83$ $(\times 1)$ &  $-9.55$ $(\times 1)$ &  $-9.12$ $(\times 2)$ &  $-0.59$ $(\times 1)$ &  $1.18$ $(\times 2)$ &  $2.08$ $(\times 1)$  \\
+MgCl$_2$  &  magnesium chloride  &  $-12.52$ $(\times 1)$ &  $-11.88$ $(\times 2)$ &  $-11.76$ $(\times 2)$ &  $-0.19$ $(\times 1)$ &  $1.40$ $(\times 2)$ &  $3.91$ $(\times 1)$  \\
+AlI$_3$  &  aluminum chloride  &  $-10.39$ $(\times 2)$ &  $-10.29$ $(\times 2)$ &  $-9.84$ $(\times 1)$ &  $-0.28$ $(\times 1)$ &  $-0.33$ $(\times 1)$ &  $2.25$ $(\times 2)$  \\
+BN  &  boron nitride  &  $-27.96$ $(\times 1)$&  $-13.69$ $(\times 1)$ &  $-11.93$ $(\times 2)$ &  $2.65$ $(\times 2)$ &  $-3.16$ $(\times 1)$ &  $3.69$ $(\times 1)$  \\
+NCH  &  hydrogen cyanide  &  $-20.60$ $(\times 1)$ &  $-13.91$ $(\times 1)$ &  $-13.90$ $(\times 2)$ &  $3.21$ $(\times 2)$ &  $3.45$ $(\times 1)$ &  $4.55$ $(\times 1)$  \\
+PN  &  phosphorus mononitride  &  $-16.37$ $(\times 1)$ &  $-12.42$ $(\times 2)$ &  $-11.80$ $(\times 1)$ &  $0.46$ $(\times 2)$ &  $3.40$ $(\times 1)$ &  $8.42$ $(\times 1)$  \\
+H$_2$NNH$_2$  &  hydrazine  &  $-15.39$ $(\times 1)$ &  $-11.28$ $(\times 1)$ &  $-9.62$ $(\times 1)$ &  $2.51$ $(\times 1)$ &  $3.69$ $(\times 1)$ &  $4.55$ $(\times 1)$  \\
+H$_2$CO  &  formaldehyde  &  $-16.04$ $(\times 1)$ &  $-14.56$ $(\times 1)$ &  $-10.78$ $(\times 1)$ &  $1.67$ $(\times 1)$ &  $3.68$ $(\times 1)$ &  $5.24$ $(\times 1)$  \\
+CH$_4$O  &  methanol  &  $-14.32$ $(\times 1)$ &  $-13.33$ $(\times 1)$ &  $-10.18$ $(\times 1)$ &  $1.91$ $(\times 1)$ &  $3.14$ $(\times 1)$ &  $4.00$ $(\times 1)$  \\
+C$_2$H$_6$O  &  ethanol  &  $-13.43$ $(\times 1)$ &  $-12.27$ $(\times 1)$ &  $-10.61$ $(\times 1)$ &  $2.86$ $(\times 1)$ &  $3.73$ $(\times 1)$ &  $4.69$ $(\times 1)$  \\
+C$_2$H$_4$O  &  acetaldehyde  &  $-14.32$ $(\times 1)$ &  $-13.33$ $(\times 1)$ &  $-10.18$ $(\times 1)$ &  $1.91$ $(\times 1)$ &  $3.14$ $(\times 1)$ &  $4.00$ $(\times 1)$  \\
+C$_4$H$_{10}$O  &  ethoxy ethane  &  $-12.36$ $(\times 1)$ &  $-11.50$ $(\times 1)$ &  $-9.75$ $(\times 1)$ &  $2.96$ $(\times 1)$ &  $3.46$ $(\times 1)$ &  $3.93$ $(\times 1)$  \\
+CH$_2$O$_2$  &  formic acid  &  $-14.94$ $(\times 1)$ &  $-12.55$ $(\times 1)$ &  $-11.42$ $(\times 1)$ &  $2.70$ $(\times 1)$ &  $3.07$ $(\times 1)$ &  $4.29$ $(\times 1)$  \\
+HOOH  &  hydrogen peroxide  &  $-15.38$ $(\times 1)$ &  $-12.84$ $(\times 1)$ &  $-11.39$ $(\times 1)$ &  $3.01$ $(\times 1)$ &  $3.02$ $(\times 1)$ &  $4.87$ $(\times 1)$  \\
+H$_2$O  &  water  &  $-18.90$ $(\times 1)$ &  $-14.70$ $(\times 1)$ &  $-12.48$ $(\times 1)$ &  $2.88$ $(\times 1)$ &  $4.91$ $(\times 1)$ &  $13.32$ $(\times 1)$  \\
+CO$_2$  &  carbon dioxide  &  $-18.11$ $(\times 1)$ &  $-17.99$ $(\times 2)$ &  $-13.73$ $(\times 2)$ &  $2.80$ $(\times 1)$ &  $4.29$ $(\times 2)$ &  $6.59$ $(\times 1)$  \\
+CS$_2$  &  carbon disulfide  &  $-14.57$ $(\times 1)$ &  $-13.27$ $(\times 2)$ &  $-10.01$ $(\times 2)$ &  $0.29$ $(\times 2)$ &  $3.34$ $(\times 1)$ &  $4.46$ $(\times 1)$  \\
+OCS  &  carbon oxide sulfide  &  $-16.12$ $(\times 1)$ &  $-16.12$ $(\times 2)$ &  $-11.24$ $(\times 2)$ &  $1.85$ $(\times 2)$ &  $3.13$ $(\times 1)$ &  $4.78$ $(\times 1)$  \\
+OCSe  &  carbon oxide selenide  &  $-15.89$ $(\times 2)$ &  $-15.63$ $(\times 1)$ &  $-10.50$ $(\times 2)$ &  $1.44$ $(\times 2)$ &  $2.60$ $(\times 1)$ &  $4.18$ $(\times 1)$  \\
+CO  &  carbon monoxide  &  $-19.42$ $(\times 1)$ &  $-15.49$ $(\times 2)$ &  $-14.37$ $(\times 1)$ &  $1.22$ $(\times 2)$ &  $5.30$ $(\times 1)$ &  $6.59$ $(\times 1)$  \\
+O$_3$  &  ozone  &  $-13.48$ $(\times 1)$ &  $-12.93$ $(\times 1)$ &  $-12.79$ $(\times 1)$ &  $-1.52$ $(\times 1)$ &  $5.23$ $(\times 1)$ &  $7.28$ $(\times 1)$  \\
+SO$_2$  &  sulfur dioxide  &  $-13.50$ $(\times 1)$ &  $-13.12$ $(\times 1)$ &  $-12.37$ $(\times 1)$ &  $-0.34$ $(\times 1)$ &  $3.98$ $(\times 1)$ &  $4.39$ $(\times 1)$  \\
+BeO  &  beryllium monoxide  &  $-26.77$ $(\times 1)$&  $-10.97$ $(\times 1)$ &  $-9.88$ $(\times 2)$ &  $-2.01$ $(\times 1)$ &  $2.31$ $(\times 1)$ &  $2.48$ $(\times 2)$  \\
+MgO  &  magnesium monoxide  &  $-24.89$ $(\times 1)$ &  $-8.76$ $(\times 1)$ &  $-8.17$ $(\times 2)$ &  $1.16$ $(\times 2)$ &  $-1.29$ $(\times 1)$ &  $2.90$ $(\times 1)$  \\
+C$_7$H$_8$  &  toluene  &  $-11.74$ $(\times 1)$ &  $-9.19$ $(\times 1)$ &  $-8.90$ $(\times 1)$ &  $1.71$ $(\times 1)$ &  $1.85$ $(\times 1)$ &  $2.97$ $(\times 1)$  \\
+C$_8$H$_{10}$  &  ethylbenzene  &  $-11.57$ $(\times 1)$ &  $-9.15$ $(\times 1)$ &  $-8.85$ $(\times 1)$ &  $1.76$ $(\times 1)$ &  $1.76$ $(\times 1)$ &  $2.85$ $(\times 1)$  \\
+C$_6$F$_6$  &  hexafluorobenzene  &  $-14.09$ $(\times 1)$ &  $-13.12$ $(\times 1)$ &  $-10.15$ $(\times 2)$ &  $1.08$ $(\times 2)$ &  $1.15$ $(\times 1)$ &  $3.66$ $(\times 2)$  \\
+C$_6$H$_5$OH  &  phenol  &  $-11.99$ $(\times 1)$ &  $-9.42$ $(\times 1)$ &  $-8.69$ $(\times 1)$ &  $1.62$ $(\times 1)$ &  $2.35$ $(\times 1)$ &  $2.84$ $(\times 1)$  \\
+C$_6$H$_5$NH$_2$  &  aniline  &  $-11.01$ $(\times 1)$ &  $-9.21$ $(\times 1)$ &  $-7.98$ $(\times 1)$ &  $1.83$ $(\times 1)$ &  $2.29$ $(\times 1)$ &  $2.82$ $(\times 1)$  \\
+C$_5$H$_5$N  &  pyridine  &  $-10.45$ $(\times 1)$ &  $-9.74$ $(\times 1)$ &  $-9.72$ $(\times 1)$ &  $1.24$ $(\times 1)$ &  $1.62$ $(\times 1)$ &  $3.21$ $(\times 1)$  \\
+C$_5$H$_5$N$_5$O  &  guanine  &  $-10.05$ $(\times 1)$ &  $-9.81$ $(\times 1)$ &  $-8.04$ $(\times 1)$ &  $1.57$ $(\times 1)$ &  $1.87$ $(\times 1)$ &  $1.98$ $(\times 1)$  \\
+C$_5$H$_5$N$_5$  &  adenine  &  $-9.59$ $(\times 1)$ &  $-9.39$ $(\times 1)$ &  $-8.33$ $(\times 1)$ &  $1.28$ $(\times 1)$ &  $2.06$ $(\times 1)$ &  $2.51$ $(\times 1)$  \\
+C$_4$H$_5$N$_3$O  &  cytosine  &  $-9.66$ $(\times 1)$ &  $-9.54$ $(\times 1)$ &  $-8.78$ $(\times 1)$ &  $0.92$ $(\times 1)$ &  $2.29$ $(\times 1)$ &  $2.51$ $(\times 1)$  \\
+C$_5$H$_6$N$_2$O$_2$  &  thymine  &  $-10.55$ $(\times 1)$ &  $-10.19$ $(\times 1)$ &  $-9.15$ $(\times 1)$ &  $0.77$ $(\times 1)$ &  $2.15$ $(\times 1)$ &  $2.42$ $(\times 1)$  \\
+C$_4$H$_4$N$_2$O$_2$  &  uracil  &  $-10.65$ $(\times 1)$ &  $-10.29$ $(\times 1)$ &  $-9.57$ $(\times 1)$ &  $0.70$ $(\times 1)$ &  $2.10$ $(\times 1)$ &  $2.35$ $(\times 1)$  \\
+CH$_4$N$_2$O  &  urea  &  $-10.65$ $(\times 1)$ &  $-10.52$ $(\times 1)$ &  $-10.08$ $(\times 1)$ &  $2.33$ $(\times 1)$ &  $3.51$ $(\times 1)$ &  $4.09$ $(\times 1)$  \\
+Ag$_2$  &  silver dimer  &  $-11.08$ $(\times 2)$ &  $-10.82$ $(\times 1)$ &  $-7.41$ $(\times 1)$ &  $-0.70$ $(\times 1)$ &  $1.00$ $(\times 2)$ &  $1.41$ $(\times 1)$  \\
+Cu$_2$  &  copper dimer  &  $-9.37$ $(\times 2)$ &  $-9.22$ $(\times 1)$ &  $-7.38$ $(\times 1)$ &  $-0.34$ $(\times 1)$ &  $2.11$ $(\times 1)$ &  $2.16$ $(\times 2)$  \\
+NCCu  &  copper cyanide  &  $-12.17$ $(\times 1)$ &  $-11.21$ $(\times 2)$ &  $-10.69$ $(\times 1)$ &  $-0.98$ $(\times 1)$ &  $1.92$ $(\times 2)$ &  $3.08$ $(\times 1)$  \\
+\hline\hline
+\caption{Quasiparticle energies (negative of the ionization potentials and electron affinities) of molecules in the $GW$100 calculated with IP/EA-EOM-CCSD in the def2-TZVPP basis set.}
+\label{tab:eomccsd}
+\end{longtable*}

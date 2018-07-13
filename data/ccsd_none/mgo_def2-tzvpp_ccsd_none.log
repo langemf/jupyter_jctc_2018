@@ -1,0 +1,1166 @@
+
+
+******** <class 'pyscf.scf.hf.RHF'> flags ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+DIIS start cycle = 1
+DIIS space = 8
+SCF tol = 1e-09
+SCF gradient tol = None
+max. SCF cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp9_Ue8l
+max_memory 4000 MB (current use 75 MB)
+Set gradient conv threshold to 3.16228e-05
+Nelec from initial guess = 19.9986142167
+cond(S) = 546.15155196
+E_coul = 137.212730961379
+init E= -274.206732608292
+    CPU time for initialize scf      0.23 sec, wall time      0.23 sec
+  HOMO = -0.457394787513773  LUMO = -0.169751545796761
+  mo_energy =
+[-48.98801616 -20.75440476  -3.75335949  -2.27210968  -2.25968031
+  -2.25968031  -1.38031256  -0.49889808  -0.45739479  -0.45739479
+  -0.16975155   0.07195124   0.07195124   0.10274488   0.17643692
+   0.20117015   0.20117015   0.22309064   0.22309064   0.22874237
+   0.40899442   0.40899442   0.51521151   0.61119653   0.69228533
+   0.69228533   0.77666777   0.77666777   0.78404157   0.78404157
+   0.85117787   1.06882101   1.65359997   1.65359997   1.84117213
+   1.84117213   1.90270906   2.13242163   2.13242163   2.30773275
+   2.93996741   2.93996741   3.08345012   3.25109532   4.85222822
+   5.41697063   5.41697063   5.42873025   5.42873025   5.43307576
+   5.43307576   5.53126505   6.56326125   6.56326125   6.66315303
+   6.66315303   6.90720421   7.03878807   7.03878807   7.0655639
+   7.0655639    7.1344195   44.5411141 ]
+E_coul = 142.378715465656
+cycle= 1 E= -274.13858209274  delta_E= 0.0682  |g|= 0.973  |ddm|= 1.67
+    CPU time for cycle= 1      0.02 sec, wall time      0.02 sec
+diis-norm(errvec)=2.14417
+diis-c [-4.59747172  1.        ]
+  HOMO = -0.0529695417117424  LUMO = -0.0144418155012839
+  mo_energy =
+[ -4.91461214e+01  -1.96054206e+01  -3.86316021e+00  -2.38352780e+00
+  -2.38352780e+00  -2.37247716e+00  -7.05441315e-01  -1.48015451e-01
+  -5.29695417e-02  -5.29695417e-02  -1.44418155e-02   3.69963967e-02
+   3.69963967e-02   1.06947093e-01   1.51679350e-01   1.71250218e-01
+   1.71250218e-01   2.59915582e-01   2.59915582e-01   2.94171255e-01
+   3.52209264e-01   3.52209264e-01   4.98474162e-01   7.09154883e-01
+   7.09154883e-01   7.87668274e-01   7.87668274e-01   9.17246339e-01
+   1.04252761e+00   1.04252761e+00   1.11532682e+00   1.25515636e+00
+   2.02144772e+00   2.03282942e+00   2.03282942e+00   2.17675862e+00
+   2.17675862e+00   2.33249183e+00   2.33249183e+00   2.62485834e+00
+   3.65740369e+00   3.65740369e+00   3.75617346e+00   3.87965341e+00
+   4.83424315e+00   6.11848037e+00   6.11848037e+00   6.12663331e+00
+   6.12663331e+00   6.13718690e+00   6.13718690e+00   6.18808553e+00
+   6.91180453e+00   6.91180453e+00   6.93534846e+00   6.93534846e+00
+   6.98464183e+00   7.41170053e+00   7.41170053e+00   7.51747036e+00
+   7.51747036e+00   7.75959709e+00   4.56459343e+01]
+E_coul = 128.918684637338
+cycle= 2 E= -272.824178375487  delta_E= 1.31  |g|= 2.38  |ddm|= 1.92
+    CPU time for cycle= 2      0.02 sec, wall time      0.02 sec
+diis-norm(errvec)=5.90987
+diis-c [-1.08695388  0.75638006  0.24361994]
+  HOMO = -0.29718188740284  LUMO = -0.0752994673341174
+  mo_energy =
+[ -4.91081821e+01  -2.03302407e+01  -3.83862858e+00  -2.35765906e+00
+  -2.35765906e+00  -2.35542948e+00  -1.05702596e+00  -3.14936677e-01
+  -3.14936677e-01  -2.97181887e-01  -7.52994673e-02   4.27442952e-02
+   4.27442952e-02   1.04635782e-01   1.61199035e-01   1.78914421e-01
+   1.78914421e-01   2.27752703e-01   2.27752703e-01   2.49308997e-01
+   3.71487842e-01   3.71487842e-01   4.95949164e-01   7.26892141e-01
+   7.26892141e-01   7.54735018e-01   7.56256938e-01   7.56256938e-01
+   8.48859731e-01   8.48859731e-01   9.70725606e-01   1.12637160e+00
+   1.89182468e+00   1.89182468e+00   1.96195542e+00   2.04177215e+00
+   2.04177215e+00   2.06948063e+00   2.06948063e+00   2.41003922e+00
+   3.23717717e+00   3.23717717e+00   3.35482991e+00   3.51247275e+00
+   4.81529789e+00   5.72612067e+00   5.72612067e+00   5.73469204e+00
+   5.73469204e+00   5.74768297e+00   5.74768297e+00   5.80831408e+00
+   6.90863110e+00   6.90863110e+00   6.92257359e+00   6.92257359e+00
+   6.95110943e+00   6.95110943e+00   6.98884483e+00   7.05918738e+00
+   7.05918738e+00   7.29266914e+00   4.49509709e+01]
+E_coul = 138.817720861649
+cycle= 3 E= -274.37140324622  delta_E= -1.55  |g|= 0.097  |ddm|= 1.49
+    CPU time for cycle= 3      0.01 sec, wall time      0.02 sec
+diis-norm(errvec)=0.150515
+diis-c [-0.02146342  0.02485542  0.00677635  0.96836823]
+  HOMO = -0.322973569760202  LUMO = -0.0589269953669724
+  mo_energy =
+[ -4.90596337e+01  -2.04282901e+01  -3.80522364e+00  -2.32358313e+00
+  -2.32358313e+00  -2.32069094e+00  -1.05958785e+00  -3.25673243e-01
+  -3.25673243e-01  -3.22973570e-01  -5.89269954e-02   4.61583690e-02
+   4.61583690e-02   1.07329105e-01   1.59410590e-01   1.83051873e-01
+   1.83051873e-01   2.35751198e-01   2.35751198e-01   2.59201770e-01
+   3.76405601e-01   3.76405601e-01   5.01078035e-01   7.40230962e-01
+   7.40230962e-01   7.72623947e-01   7.72623947e-01   7.76335641e-01
+   8.69942177e-01   8.69942177e-01   9.92062211e-01   1.14660062e+00
+   1.91352059e+00   1.91352059e+00   1.97997881e+00   2.06260013e+00
+   2.06260013e+00   2.09313033e+00   2.09313033e+00   2.42532008e+00
+   3.22615290e+00   3.22615290e+00   3.34533491e+00   3.51352592e+00
+   4.84267106e+00   5.73502131e+00   5.73502131e+00   5.74420929e+00
+   5.74420929e+00   5.75565742e+00   5.75565742e+00   5.81921616e+00
+   6.89593780e+00   6.89593780e+00   6.93659814e+00   6.93659814e+00
+   6.97748737e+00   6.97748737e+00   7.01778779e+00   7.06009152e+00
+   7.06009152e+00   7.28003037e+00   4.48619923e+01]
+E_coul = 138.728048026744
+cycle= 4 E= -274.373573993544  delta_E= -0.00217  |g|= 0.0281  |ddm|= 0.128
+    CPU time for cycle= 4      0.02 sec, wall time      0.02 sec
+diis-norm(errvec)=0.0618809
+diis-c [-0.00164432  0.0065949  -0.00622457 -0.09180838  1.09143806]
+  HOMO = -0.325133646526643  LUMO = -0.0538959320458367
+  mo_energy =
+[-49.06088735 -20.42606121  -3.80066204  -2.31874812  -2.31874812
+  -2.31639938  -1.06807704  -0.33487736  -0.33487736  -0.32513365
+  -0.05389593   0.04947754   0.04947754   0.10943616   0.16282273
+   0.18526921   0.18526921   0.23618203   0.23618203   0.2577605
+   0.38041678   0.38041678   0.50484225   0.74563586   0.74563586
+   0.77028284   0.77480533   0.77480533   0.86417071   0.86417071
+   0.98881208   1.1463227    1.9049125    1.9049125    1.98027743
+   2.06032715   2.06032715   2.09311989   2.09311989   2.42132047
+   3.21903729   3.21903729   3.33971051   3.50631943   4.84530258
+   5.72400468   5.72400468   5.73243665   5.73243665   5.74587709
+   5.74587709   5.80774525   6.88861653   6.88861653   6.93413898
+   6.93413898   6.98189528   6.98189528   7.02078395   7.05814404
+   7.05814404   7.27224797  44.8634234 ]
+E_coul = 138.749318066279
+cycle= 5 E= -274.374031015711  delta_E= -0.000457  |g|= 0.0194  |ddm|= 0.0482
+    CPU time for cycle= 5      0.02 sec, wall time      0.02 sec
+diis-norm(errvec)=0.046803
+diis-c [ -5.28645142e-04   9.16965925e-03  -2.96778918e-03  -5.16124416e-03
+  -5.65269485e-01   1.56422886e+00]
+  HOMO = -0.323064486744829  LUMO = -0.0515557076247817
+  mo_energy =
+[-49.0540207  -20.43079589  -3.79627111  -2.31397898  -2.31397898
+  -2.31173393  -1.07240576  -0.34056007  -0.34056007  -0.32306449
+  -0.05155571   0.05079815   0.05079815   0.11062303   0.16450766
+   0.18631623   0.18631623   0.23593461   0.23593461   0.25695678
+   0.38234734   0.38234734   0.50673648   0.74811853   0.74811853
+   0.7675928    0.77589382   0.77589382   0.86078177   0.86078177
+   0.98710279   1.14645581   1.90116176   1.90116176   1.98084692
+   2.05856084   2.05856084   2.09476915   2.09476915   2.41982547
+   3.21458679   3.21458679   3.3363566    3.50233413   4.84810038
+   5.7192168    5.7192168    5.72686971   5.72686971   5.74242041
+   5.74242041   5.80229604   6.88498433   6.88498433   6.93323316
+   6.93323316   6.98629251   6.98629251   7.02410511   7.05844758
+   7.05844758   7.26805199  44.85863294]
+E_coul = 138.756087318992
+cycle= 6 E= -274.374370821623  delta_E= -0.00034  |g|= 0.0125  |ddm|= 0.0404
+    CPU time for cycle= 6      0.02 sec, wall time      0.02 sec
+diis-norm(errvec)=0.0306815
+diis-c [ -1.45610891e-04   4.83088749e-03   6.83739651e-04   4.95455045e-02
+   1.48791051e-01  -1.59502385e+00   2.39117266e+00]
+  HOMO = -0.32057856345583  LUMO = -0.0492512637992634
+  mo_energy =
+[-49.05555088 -20.43804071  -3.79585658  -2.31328945  -2.31328945
+  -2.31127256  -1.07796797  -0.34847114  -0.34847114  -0.32057856
+  -0.04925126   0.05185553   0.05185553   0.11169055   0.1660666
+   0.18706176   0.18706176   0.23526089   0.23526089   0.25597377
+   0.38373051   0.38373051   0.50813011   0.74954425   0.74954425
+   0.76439532   0.77605281   0.77605281   0.85639694   0.85639694
+   0.98447384   1.14541233   1.89634026   1.89634026   1.97972822
+   2.05485813   2.05485813   2.09464441   2.09464441   2.41682914
+   3.20866043   3.20866043   3.3313403    3.49711819   4.84770242
+   5.71313586   5.71313586   5.71970121   5.71970121   5.73826086
+   5.73826086   5.79505543   6.87996042   6.87996042   6.92928464
+   6.92928464   6.98684353   6.98684353   7.02365823   7.05596629
+   7.05596629   7.26159728  44.85152821]
+E_coul = 138.757528174519
+cycle= 7 E= -274.37461131934  delta_E= -0.00024  |g|= 0.0057  |ddm|= 0.0511
+    CPU time for cycle= 7      0.02 sec, wall time      0.02 sec
+diis-norm(errvec)=0.0135677
+diis-c [ -1.38009432e-05   3.00387312e-03   8.83514395e-05  -2.16679098e-03
+   7.89020829e-02  -9.29418729e-02  -4.61225661e-01   1.47434002e+00]
+  HOMO = -0.319819250266855  LUMO = -0.0481157259802376
+  mo_energy =
+[ -4.90521818e+01  -2.04414873e+01  -3.79412729e+00  -2.31140002e+00
+  -2.31140002e+00  -2.30955643e+00  -1.08137570e+00  -3.52961411e-01
+  -3.52961411e-01  -3.19819250e-01  -4.81157260e-02   5.24913333e-02
+   5.24913333e-02   1.12167460e-01   1.66980175e-01   1.87421154e-01
+   1.87421154e-01   2.34901279e-01   2.34901279e-01   2.55379914e-01
+   3.84536195e-01   3.84536195e-01   5.08907846e-01   7.50314057e-01
+   7.50314057e-01   7.62274782e-01   7.76092714e-01   7.76092714e-01
+   8.53786562e-01   8.53786562e-01   9.82768526e-01   1.14468471e+00
+   1.89312765e+00   1.89312765e+00   1.97931525e+00   2.05236892e+00
+   2.05236892e+00   2.09516057e+00   2.09516057e+00   2.41509970e+00
+   3.20510345e+00   3.20510345e+00   3.32822519e+00   3.49401983e+00
+   4.84845024e+00   5.70917078e+00   5.70917078e+00   5.71527452e+00
+   5.71527452e+00   5.73517530e+00   5.73517530e+00   5.79075571e+00
+   6.87672545e+00   6.87672545e+00   6.92732783e+00   6.92732783e+00
+   6.98852999e+00   6.98852999e+00   7.02458727e+00   7.05543793e+00
+   7.05543793e+00   7.25800586e+00   4.48480791e+01]
+E_coul = 138.751740167975
+cycle= 8 E= -274.374646014098  delta_E= -3.47e-05  |g|= 0.00164  |ddm|= 0.023
+    CPU time for cycle= 8      0.02 sec, wall time      0.02 sec
+diis-norm(errvec)=0.00376989
+diis-c [ -7.63812615e-07   9.34891370e-04  -1.90395713e-04  -2.75268450e-03
+  -2.43012559e-02   1.63528230e-01  -1.90659029e-01  -1.24448898e-01
+   1.17788914e+00]
+  HOMO = -0.319876023697256  LUMO = -0.0480200703491822
+  mo_energy =
+[ -4.90529008e+01  -2.04424061e+01  -3.79434925e+00  -2.31161896e+00
+  -2.31161896e+00  -2.30980313e+00  -1.08216951e+00  -3.53825727e-01
+  -3.53825727e-01  -3.19876024e-01  -4.80200703e-02   5.25908063e-02
+   5.25908063e-02   1.12209276e-01   1.67104728e-01   1.87455368e-01
+   1.87455368e-01   2.34820784e-01   2.34820784e-01   2.55259351e-01
+   3.84614898e-01   3.84614898e-01   5.08978103e-01   7.50363294e-01
+   7.50363294e-01   7.61835423e-01   7.76010656e-01   7.76010656e-01
+   8.53255044e-01   8.53255044e-01   9.82364153e-01   1.14443843e+00
+   1.89241285e+00   1.89241285e+00   1.97905339e+00   2.05177389e+00
+   2.05177389e+00   2.09500421e+00   2.09500421e+00   2.41461954e+00
+   3.20429807e+00   3.20429807e+00   3.32749386e+00   3.49329286e+00
+   4.84819610e+00   5.70829563e+00   5.70829563e+00   5.71434659e+00
+   5.71434659e+00   5.73440760e+00   5.73440760e+00   5.78984801e+00
+   6.87590571e+00   6.87590571e+00   6.92664922e+00   6.92664922e+00
+   6.98830348e+00   6.98830348e+00   7.02426923e+00   7.05495333e+00
+   7.05495333e+00   7.25714328e+00   4.48471627e+01]
+E_coul = 138.755225499304
+cycle= 9 E= -274.374647078694  delta_E= -1.06e-06  |g|= 0.000257  |ddm|= 0.00294
+    CPU time for cycle= 9      0.02 sec, wall time      0.02 sec
+diis-norm(errvec)=0.000562542
+diis-c [ -2.59560583e-08   1.11923026e+00  -9.48168476e-07   2.89830348e-05
+  -5.40743857e-04  -1.37789146e-02   3.46663939e-02  -4.75492457e-02
+  -9.20557884e-02]
+  HOMO = -0.31987650183255  LUMO = -0.04798164338737
+  mo_energy =
+[ -4.90527584e+01  -2.04425576e+01  -3.79427088e+00  -2.31153827e+00
+  -2.31153827e+00  -2.30971906e+00  -1.08227315e+00  -3.53939699e-01
+  -3.53939699e-01  -3.19876502e-01  -4.79816434e-02   5.26122066e-02
+   5.26122066e-02   1.12225171e-01   1.67139703e-01   1.87464709e-01
+   1.87464709e-01   2.34813576e-01   2.34813576e-01   2.55244424e-01
+   3.84641588e-01   3.84641588e-01   5.09009336e-01   7.50390701e-01
+   7.50390701e-01   7.61786004e-01   7.76021439e-01   7.76021439e-01
+   8.53186551e-01   8.53186551e-01   9.82321878e-01   1.14443431e+00
+   1.89233409e+00   1.89233409e+00   1.97906140e+00   2.05171637e+00
+   2.05171637e+00   2.09503806e+00   2.09503806e+00   2.41458924e+00
+   3.20419502e+00   3.20419502e+00   3.32741183e+00   3.49320885e+00
+   4.84824071e+00   5.70820009e+00   5.70820009e+00   5.71424396e+00
+   5.71424396e+00   5.73432817e+00   5.73432817e+00   5.78975247e+00
+   6.87581157e+00   6.87581157e+00   6.92660586e+00   6.92660586e+00
+   6.98837799e+00   6.98837799e+00   7.02432168e+00   7.05496072e+00
+   7.05496072e+00   7.25705325e+00   4.48470156e+01]
+E_coul = 138.755558792088
+cycle= 10 E= -274.374647110078  delta_E= -3.14e-08  |g|= 3.38e-05  |ddm|= 0.000628
+    CPU time for cycle= 10      0.02 sec, wall time      0.02 sec
+diis-norm(errvec)=6.82514e-05
+diis-c [ -5.58379704e-10  -3.61089289e-01   1.34120909e+00  -4.66721424e-05
+   4.96775849e-04   2.86170936e-03  -7.56931727e-03   1.16387650e-02
+   1.24989337e-02]
+  HOMO = -0.319871670224396  LUMO = -0.0479803350704615
+  mo_energy =
+[ -4.90527527e+01  -2.04425659e+01  -3.79426411e+00  -2.31153157e+00
+  -2.31153157e+00  -2.30971095e+00  -1.08227571e+00  -3.53942079e-01
+  -3.53942079e-01  -3.19871670e-01  -4.79803351e-02   5.26134289e-02
+   5.26134289e-02   1.12225658e-01   1.67141073e-01   1.87465148e-01
+   1.87465148e-01   2.34813646e-01   2.34813646e-01   2.55245417e-01
+   3.84643186e-01   3.84643186e-01   5.09011907e-01   7.50393788e-01
+   7.50393788e-01   7.61788285e-01   7.76024316e-01   7.76024316e-01
+   8.53185198e-01   8.53185198e-01   9.82322476e-01   1.14443807e+00
+   1.89233415e+00   1.89233415e+00   1.97906518e+00   2.05171740e+00
+   2.05171740e+00   2.09504269e+00   2.09504269e+00   2.41459152e+00
+   3.20419191e+00   3.20419191e+00   3.32741137e+00   3.49320768e+00
+   4.84824573e+00   5.70819926e+00   5.70819926e+00   5.71424316e+00
+   5.71424316e+00   5.73432774e+00   5.73432774e+00   5.78975239e+00
+   6.87580890e+00   6.87580890e+00   6.92660634e+00   6.92660634e+00
+   6.98838480e+00   6.98838480e+00   7.02432733e+00   7.05496383e+00
+   7.05496383e+00   7.25705123e+00   4.48470084e+01]
+E_coul = 138.755644823896
+cycle= 11 E= -274.374647111159  delta_E= -1.08e-09  |g|= 5.38e-06  |ddm|= 0.000154
+    CPU time for cycle= 11      0.01 sec, wall time      0.02 sec
+diis-norm(errvec)=1.00862e-05
+diis-c [ -2.30179209e-11   5.48756362e-02  -3.23549470e-01   1.26723012e+00
+  -1.07261141e-04   5.66961642e-05   4.61910074e-04  -2.12045761e-03
+   3.15282225e-03]
+  HOMO = -0.319871674440312  LUMO = -0.0479804310349543
+  mo_energy =
+[ -4.90527510e+01  -2.04425646e+01  -3.79426357e+00  -2.31153096e+00
+  -2.31153096e+00  -2.30971029e+00  -1.08227395e+00  -3.53941100e-01
+  -3.53941100e-01  -3.19871674e-01  -4.79804310e-02   5.26132222e-02
+   5.26132222e-02   1.12225548e-01   1.67140760e-01   1.87464897e-01
+   1.87464897e-01   2.34813749e-01   2.34813749e-01   2.55245985e-01
+   3.84642800e-01   3.84642800e-01   5.09011762e-01   7.50393457e-01
+   7.50393457e-01   7.61789967e-01   7.76024319e-01   7.76024319e-01
+   8.53186302e-01   8.53186302e-01   9.82323385e-01   1.14443860e+00
+   1.89233555e+00   1.89233555e+00   1.97906570e+00   2.05171860e+00
+   2.05171860e+00   2.09504297e+00   2.09504297e+00   2.41459271e+00
+   3.20419324e+00   3.20419324e+00   3.32741290e+00   3.49320906e+00
+   4.84824614e+00   5.70820080e+00   5.70820080e+00   5.71424473e+00
+   5.71424473e+00   5.73432919e+00   5.73432919e+00   5.78975389e+00
+   6.87581032e+00   6.87581032e+00   6.92660754e+00   6.92660754e+00
+   6.98838538e+00   6.98838538e+00   7.02432807e+00   7.05496477e+00
+   7.05496477e+00   7.25705264e+00   4.48470096e+01]
+E_coul = 138.755640654611
+cycle= 12 E= -274.374647111184  delta_E= -2.48e-11  |g|= 9.65e-07  |ddm|= 2.6e-05
+    CPU time for cycle= 12      0.02 sec, wall time      0.02 sec
+  HOMO = -0.319871475468755  LUMO = -0.0479803737039561
+  mo_energy =
+[ -4.90527511e+01  -2.04425639e+01  -3.79426352e+00  -2.31153090e+00
+  -2.31153090e+00  -2.30971022e+00  -1.08227346e+00  -3.53940735e-01
+  -3.53940735e-01  -3.19871475e-01  -4.79803737e-02   5.26132434e-02
+   5.26132434e-02   1.12225577e-01   1.67140763e-01   1.87464917e-01
+   1.87464917e-01   2.34813799e-01   2.34813799e-01   2.55246048e-01
+   3.84642838e-01   3.84642838e-01   5.09011844e-01   7.50393531e-01
+   7.50393531e-01   7.61790123e-01   7.76024446e-01   7.76024446e-01
+   8.53186506e-01   8.53186506e-01   9.82323611e-01   1.14443882e+00
+   1.89233587e+00   1.89233587e+00   1.97906589e+00   2.05171889e+00
+   2.05171889e+00   2.09504308e+00   2.09504308e+00   2.41459294e+00
+   3.20419368e+00   3.20419368e+00   3.32741331e+00   3.49320953e+00
+   4.84824623e+00   5.70820124e+00   5.70820124e+00   5.71424520e+00
+   5.71424520e+00   5.73432961e+00   5.73432961e+00   5.78975437e+00
+   6.87581082e+00   6.87581082e+00   6.92660791e+00   6.92660791e+00
+   6.98838545e+00   6.98838545e+00   7.02432820e+00   7.05496501e+00
+   7.05496501e+00   7.25705311e+00   4.48470103e+01]
+E_coul = 138.755637605774
+Extra cycle  E= -274.374647111184  delta_E= -2.27e-13  |g|= 5.98e-07  |ddm|= 3.27e-06
+    CPU time for scf_cycle      0.47 sec, wall time      0.47 sec
+    CPU time for SCF      0.47 sec, wall time      0.68 sec
+converged SCF energy = -274.374647111184
+RHF E = -274.374647111
+RHF eps = [ -4.90527511e+01  -2.04425639e+01  -3.79426352e+00  -2.31153090e+00
+  -2.31153090e+00  -2.30971022e+00  -1.08227346e+00  -3.53940735e-01
+  -3.53940735e-01  -3.19871475e-01  -4.79803737e-02   5.26132434e-02
+   5.26132434e-02   1.12225577e-01   1.67140763e-01   1.87464917e-01
+   1.87464917e-01   2.34813799e-01   2.34813799e-01   2.55246048e-01
+   3.84642838e-01   3.84642838e-01   5.09011844e-01   7.50393531e-01
+   7.50393531e-01   7.61790123e-01   7.76024446e-01   7.76024446e-01
+   8.53186506e-01   8.53186506e-01   9.82323611e-01   1.14443882e+00
+   1.89233587e+00   1.89233587e+00   1.97906589e+00   2.05171889e+00
+   2.05171889e+00   2.09504308e+00   2.09504308e+00   2.41459294e+00
+   3.20419368e+00   3.20419368e+00   3.32741331e+00   3.49320953e+00
+   4.84824623e+00   5.70820124e+00   5.70820124e+00   5.71424520e+00
+   5.71424520e+00   5.73432961e+00   5.73432961e+00   5.78975437e+00
+   6.87581082e+00   6.87581082e+00   6.92660791e+00   6.92660791e+00
+   6.98838545e+00   6.98838545e+00   7.02432820e+00   7.05496501e+00
+   7.05496501e+00   7.25705311e+00   4.48470103e+01]
+    CPU time for CCSD integral transformation      1.69 sec, wall time      1.69 sec
+
+******** <class 'pyscf.cc.rccsd.RCCSD'> flags ********
+CCSD nocc = 7, nvir = 53
+frozen orbitals [0, 1, 2]
+max_cycle = 200
+direct = 0
+conv_tol = 1e-07
+conv_tol_normt = 1e-05
+diis_space = 6
+diis_start_cycle = 0
+diis_start_energy_diff = 1e+09
+max_memory 4000 MB (current use 127 MB)
+Init t2, MP2 energy = -0.454826406827151
+    CPU time for init mp2      0.01 sec, wall time      0.00 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.02 sec, wall time      0.02 sec
+    CPU time for vvvv      0.27 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3872 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.11 sec, wall time      0.11 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.34 sec, wall time      0.34 sec
+    CPU time for contract loop      0.61 sec, wall time      0.62 sec
+    CPU time for update t1 t2      0.62 sec, wall time      0.63 sec
+istep = 0  E(CCSD) = -0.403721203531899  dE = -0.403721204  norm(t1,t2) = 0.262232
+    CPU time for CCSD iter      0.62 sec, wall time      0.64 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.03 sec, wall time      0.02 sec
+    CPU time for vvvv      0.29 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3851 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.09 sec, wall time      0.09 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.32 sec, wall time      0.32 sec
+    CPU time for contract loop      0.61 sec, wall time      0.60 sec
+    CPU time for update t1 t2      0.62 sec, wall time      0.61 sec
+DIIS for step 1
+istep = 1  E(CCSD) = -0.450154968337023  dE = -0.0464337648  norm(t1,t2) = 0.264186
+    CPU time for CCSD iter      0.63 sec, wall time      0.61 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.02 sec, wall time      0.02 sec
+    CPU time for vvvv      0.27 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3851 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.09 sec, wall time      0.09 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.32 sec, wall time      0.32 sec
+    CPU time for contract loop      0.59 sec, wall time      0.60 sec
+    CPU time for update t1 t2      0.60 sec, wall time      0.61 sec
+diis-c [-0.03744928  1.        ]
+DIIS for step 2
+istep = 2  E(CCSD) = -0.416594515762738  dE = 0.0335604526  norm(t1,t2) = 0.281793
+    CPU time for CCSD iter      0.61 sec, wall time      0.62 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.03 sec, wall time      0.02 sec
+    CPU time for vvvv      0.28 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3851 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.09 sec, wall time      0.09 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.32 sec, wall time      0.32 sec
+    CPU time for contract loop      0.60 sec, wall time      0.60 sec
+    CPU time for update t1 t2      0.61 sec, wall time      0.61 sec
+diis-c [ -2.78413534e-04   5.18247888e-01   4.81752112e-01]
+DIIS for step 3
+istep = 3  E(CCSD) = -0.434931204451882  dE = -0.0183366887  norm(t1,t2) = 0.308661
+    CPU time for CCSD iter      0.61 sec, wall time      0.62 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.03 sec, wall time      0.02 sec
+    CPU time for vvvv      0.28 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3851 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.11 sec, wall time      0.10 sec
+    CPU time for wOVov [0:7]      0.11 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.07 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.34 sec, wall time      0.33 sec
+    CPU time for contract loop      0.62 sec, wall time      0.61 sec
+    CPU time for update t1 t2      0.63 sec, wall time      0.62 sec
+diis-c [ -1.96241437e-04   4.61605529e-02   8.26693672e-02   8.71170080e-01]
+DIIS for step 4
+istep = 4  E(CCSD) = -0.43625845209767  dE = -0.00132724765  norm(t1,t2) = 0.0255189
+    CPU time for CCSD iter      0.63 sec, wall time      0.63 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.03 sec, wall time      0.02 sec
+    CPU time for vvvv      0.28 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3847 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.10 sec, wall time      0.10 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.33 sec, wall time      0.33 sec
+    CPU time for contract loop      0.61 sec, wall time      0.61 sec
+    CPU time for update t1 t2      0.62 sec, wall time      0.62 sec
+diis-c [ -3.54615654e-05  -4.73886799e-01  -4.07676305e-01   3.91966767e-03
+   1.87764344e+00]
+DIIS for step 5
+istep = 5  E(CCSD) = -0.437688217555414  dE = -0.00142976546  norm(t1,t2) = 0.0148696
+    CPU time for CCSD iter      0.63 sec, wall time      0.63 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.01 sec, wall time      0.02 sec
+    CPU time for vvvv      0.28 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3847 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.09 sec, wall time      0.10 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.32 sec, wall time      0.33 sec
+    CPU time for contract loop      0.60 sec, wall time      0.61 sec
+    CPU time for update t1 t2      0.61 sec, wall time      0.62 sec
+diis-c [ -4.99168856e-06  -2.58678132e-03  -2.14434064e-02   1.00657990e-01
+  -3.05890428e-02   9.53961241e-01]
+DIIS for step 6
+istep = 6  E(CCSD) = -0.437163383054953  dE = 0.0005248345  norm(t1,t2) = 0.00851552
+    CPU time for CCSD iter      0.62 sec, wall time      0.62 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.02 sec, wall time      0.02 sec
+    CPU time for vvvv      0.27 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3847 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.10 sec, wall time      0.09 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.33 sec, wall time      0.32 sec
+    CPU time for contract loop      0.60 sec, wall time      0.60 sec
+    CPU time for update t1 t2      0.61 sec, wall time      0.61 sec
+diis-c [ -1.42222622e-06   1.63067527e-01   1.36217487e-01   2.33137542e-02
+  -6.18347611e-01   1.34891022e-01   1.16085782e+00]
+DIIS for step 7
+istep = 7  E(CCSD) = -0.437159520557376  dE = 3.86249758e-06  norm(t1,t2) = 0.0027671
+    CPU time for CCSD iter      0.62 sec, wall time      0.62 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.02 sec, wall time      0.02 sec
+    CPU time for vvvv      0.27 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3846 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.11 sec, wall time      0.09 sec
+    CPU time for wOVov [0:7]      0.11 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.07 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.34 sec, wall time      0.33 sec
+    CPU time for contract loop      0.61 sec, wall time      0.61 sec
+    CPU time for update t1 t2      0.62 sec, wall time      0.62 sec
+diis-c [ -8.95267408e-07   1.18914856e+00   5.58830950e-03  -9.67470854e-02
+  -1.25333871e-02  -4.76599262e-02  -3.77964676e-02]
+DIIS for step 8
+istep = 8  E(CCSD) = -0.437349521297715  dE = -0.00019000074  norm(t1,t2) = 0.00327145
+    CPU time for CCSD iter      0.63 sec, wall time      0.62 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.01 sec, wall time      0.02 sec
+    CPU time for vvvv      0.27 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3845 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.10 sec, wall time      0.10 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.33 sec, wall time      0.33 sec
+    CPU time for contract loop      0.60 sec, wall time      0.61 sec
+    CPU time for update t1 t2      0.61 sec, wall time      0.62 sec
+diis-c [ -1.07074275e-07  -3.66552606e-02   1.41883060e+00   3.20254998e-02
+   2.22031750e-03   2.20901079e-02  -4.38511266e-01]
+DIIS for step 9
+istep = 9  E(CCSD) = -0.437251648243663  dE = 9.78730541e-05  norm(t1,t2) = 0.000971179
+    CPU time for CCSD iter      0.62 sec, wall time      0.63 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.02 sec, wall time      0.02 sec
+    CPU time for vvvv      0.28 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3845 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.10 sec, wall time      0.10 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.33 sec, wall time      0.34 sec
+    CPU time for contract loop      0.61 sec, wall time      0.62 sec
+    CPU time for update t1 t2      0.62 sec, wall time      0.63 sec
+diis-c [ -3.72402361e-08   2.23699891e-02   2.09345269e-01   8.99556302e-01
+  -6.15971208e-03  -7.03744664e-03  -1.18074402e-01]
+DIIS for step 10
+istep = 10  E(CCSD) = -0.437306719945056  dE = -5.50717014e-05  norm(t1,t2) = 0.000399674
+    CPU time for CCSD iter      0.64 sec, wall time      0.63 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.02 sec, wall time      0.02 sec
+    CPU time for vvvv      0.27 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3845 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.10 sec, wall time      0.10 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.33 sec, wall time      0.34 sec
+    CPU time for contract loop      0.60 sec, wall time      0.62 sec
+    CPU time for update t1 t2      0.62 sec, wall time      0.63 sec
+diis-c [ -6.10091472e-09   5.29419077e-03  -3.04787075e-01  -3.02834529e-02
+   1.25290765e+00   6.96704361e-03   6.99016406e-02]
+DIIS for step 11
+istep = 11  E(CCSD) = -0.43730821430789  dE = -1.49436283e-06  norm(t1,t2) = 0.000185737
+    CPU time for CCSD iter      0.62 sec, wall time      0.63 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.03 sec, wall time      0.02 sec
+    CPU time for vvvv      0.28 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3845 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.10 sec, wall time      0.10 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.07 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.34 sec, wall time      0.33 sec
+    CPU time for contract loop      0.62 sec, wall time      0.62 sec
+    CPU time for update t1 t2      0.63 sec, wall time      0.63 sec
+diis-c [ -9.35988870e-10  -4.71939385e-03  -1.13939819e-01  -1.69064154e-01
+   3.50288904e-01   8.93123492e-01   4.43109709e-02]
+DIIS for step 12
+istep = 12  E(CCSD) = -0.437304550220824  dE = 3.66408707e-06  norm(t1,t2) = 7.82756e-05
+    CPU time for CCSD iter      0.63 sec, wall time      0.63 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.03 sec, wall time      0.02 sec
+    CPU time for vvvv      0.28 sec, wall time      0.28 sec
+    CPU time for woooo      0.01 sec, wall time      0.00 sec
+max_memory 3845 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.10 sec, wall time      0.10 sec
+    CPU time for wOVov [0:7]      0.13 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.34 sec, wall time      0.34 sec
+    CPU time for contract loop      0.63 sec, wall time      0.62 sec
+    CPU time for update t1 t2      0.64 sec, wall time      0.63 sec
+diis-c [ -1.14164123e-10   4.89568267e-03   2.76374897e-02  -8.44516694e-02
+  -6.45236440e-02   3.44060417e-01   7.72381724e-01]
+DIIS for step 13
+istep = 13  E(CCSD) = -0.437305310420038  dE = -7.60199214e-07  norm(t1,t2) = 3.8673e-05
+    CPU time for CCSD iter      0.65 sec, wall time      0.64 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.02 sec, wall time      0.02 sec
+    CPU time for vvvv      0.28 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3844 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.10 sec, wall time      0.11 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.33 sec, wall time      0.34 sec
+    CPU time for contract loop      0.61 sec, wall time      0.62 sec
+    CPU time for update t1 t2      0.62 sec, wall time      0.63 sec
+diis-c [ -3.71442876e-11   8.48284781e-01   1.94864272e-04  -3.03784639e-02
+  -1.85673792e-02   1.03742092e-01   9.67241057e-02]
+DIIS for step 14
+istep = 14  E(CCSD) = -0.437307178064886  dE = -1.86764485e-06  norm(t1,t2) = 1.61863e-05
+    CPU time for CCSD iter      0.63 sec, wall time      0.64 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:53]      0.03 sec, wall time      0.02 sec
+    CPU time for vvvv      0.28 sec, wall time      0.28 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3844 MB,  nocc,nvir = 7,53  blksize = 7,53
+    CPU time for ovvv [0:7]      0.12 sec, wall time      0.11 sec
+    CPU time for wOVov [0:7]      0.12 sec, wall time      0.12 sec
+    CPU time for woVoV [0:7]      0.06 sec, wall time      0.06 sec
+    CPU time for contract occ [0:7]      0.35 sec, wall time      0.34 sec
+    CPU time for contract loop      0.63 sec, wall time      0.62 sec
+    CPU time for update t1 t2      0.64 sec, wall time      0.64 sec
+diis-c [ -6.65661970e-12   6.97124274e-02   1.02559149e+00   1.75776620e-03
+   1.30533867e-02  -1.32161239e-02  -9.68989474e-02]
+DIIS for step 15
+istep = 15  E(CCSD) = -0.437307192520022  dE = -1.4455136e-08  norm(t1,t2) = 6.01918e-06
+    CPU time for CCSD iter      0.65 sec, wall time      0.64 sec
+    CPU time for CCSD     10.04 sec, wall time     10.05 sec
+CCSD converged
+E(CCSD) = -274.8119543037042  E_corr = -0.4373071925200224
+    CPU time for EOM-CCSD shared one-electron intermediates      0.01 sec, wall time      0.01 sec
+    CPU time for EOM-CCSD shared two-electron intermediates      0.06 sec, wall time      0.06 sec
+    CPU time for EOM-CCSD IP intermediates      0.06 sec, wall time      0.07 sec
+tol 1e-07  toloose 0.000316228
+max_cycle 200  max_space 221  max_memory 2000  incore True
+davidson 0 7  |r|= 0.553  e= [ 0.44129072  0.46813859  0.46813859  1.17710938  2.35282022  2.35322161
+  2.35322161]  max|de|= 2.35  lindep=    1
+davidson 1 14  |r|= 0.125  e= [ 0.32605647  0.29929646  0.29929646  0.91941068  2.21006439  2.21542941
+  2.21542941]  max|de|= -0.258  lindep= 0.964
+davidson 2 19  |r|= 0.695  e= [ 0.32094891  0.29935138  1.58356623  0.91601284  2.20148643  2.21543013
+  2.19992776]  max|de|= 1.28  lindep= 0.851
+davidson 3 26  |r|= 0.43  e= [ 0.32233773  0.30025086  0.2995888   0.9216761   2.20939034  2.20049879
+  2.2122824 ]  max|de|= -0.0149  lindep= 0.807
+davidson 4 33  |r|= 0.231  e= [ 0.32204559  0.30028002  0.29964235  0.91857014  2.20441535  2.20455205
+  2.20571786]  max|de|= -0.00656  lindep= 0.825
+davidson 5 40  |r|= 0.292  e= [ 0.32203629  0.30030571  0.30026543  0.90990827  2.21208321  2.20463684
+  2.19028045]  max|de|= -0.0154  lindep= 0.803
+davidson 6 47  |r|= 0.173  e= [ 0.32203744  0.30030781  0.30028554  0.92094088  2.1991135   2.20841273
+  2.20532423]  max|de|= 0.015  lindep= 0.795
+root 0 converged  |r|= 3.04e-06  e= 0.322037368861  max|de|= -6.74e-08
+davidson 7 54  |r|= 0.076  e= [ 0.32203737  0.30030857  0.30030797  0.91707182  2.20409197  2.20232136
+  2.20319919]  max|de|= -0.00609  lindep= 0.865
+davidson 8 60  |r|= 0.714  e= [ 0.32203737  0.30030872  1.51990657  0.91573936  2.20078615  2.20389418
+  2.19467942]  max|de|= 1.22  lindep= 0.858
+root 1 converged  |r|= 2.25e-07  e= 0.300308738966  max|de|= 1.63e-08
+davidson 9 66  |r|= 0.324  e= [ 0.32203737  0.30030874  1.30204032  0.91472791  2.21601627  2.20327202
+  2.20361106]  max|de|= -0.218  lindep= 0.842
+davidson 10 71  |r|= 0.207  e= [ 0.32203736  0.30030873  0.90270457  0.91462947  2.19982439  2.20321155
+  2.20284234]  max|de|= -0.399  lindep= 0.888
+davidson 11 76  |r|= 0.0797  e= [ 0.32203737  0.30030874  0.30030881  0.91474502  2.19991646  2.20250657
+  2.20361795]  max|de|= 0.000776  lindep= 0.876
+davidson 12 80  |r|= 0.0769  e= [ 0.32203737  0.30030873  0.86426182  0.91473926  2.20260789  2.20316322
+  2.2030743 ]  max|de|= 0.564  lindep= 0.877
+davidson 13 85  |r|= 0.475  e= [ 0.32203737  0.30030873  1.84674347  0.9147363   2.19582188  2.20302126
+  2.20320002]  max|de|= 1.55  lindep= 0.857
+davidson 14 90  |r|= 0.524  e= [ 0.32203738  0.30030876  1.69130095  0.91472823  2.20039278  2.20304847
+  2.20329037]  max|de|= -0.155  lindep= 0.863
+davidson 15 95  |r|= 0.546  e= [ 0.32203739  0.30030873  0.86255099  0.91430184  2.2118243   2.20357068
+  2.20361196]  max|de|= -0.829  lindep= 0.837
+davidson 16 100  |r|= 0.535  e= [ 0.32203739  0.30030876  1.85455109  0.91472828  2.20336092  2.20348047
+  2.20399361]  max|de|= 1.55  lindep= 0.843
+davidson 17 105  |r|= 0.145  e= [ 0.32203739  0.30030876  0.8616917   0.91472913  2.19949769  2.20363363
+  2.20371711]  max|de|= 0.561  lindep= 0.833
+davidson 18 110  |r|= 0.604  e= [ 0.32203739  0.30030876  1.81944169  0.91473025  2.20299015  2.203605
+  2.20357646]  max|de|= 1.52  lindep= 0.841
+davidson 19 115  |r|= 0.496  e= [ 0.32203739  0.30030876  0.86188752  0.91473069  2.2153617   2.20364256
+  2.20449412]  max|de|= 0.562  lindep= 0.77
+davidson 20 120  |r|= 0.846  e= [ 0.32203739  0.30030876  1.86376083  0.91473047  2.20396504  2.20352195
+  2.20367639]  max|de|= -0.341  lindep= 0.724
+davidson 21 125  |r|= 0.359  e= [ 0.32203739  0.30030876  1.78422454  0.91473032  2.2078866   2.2035243
+  2.2035243 ]  max|de|= -0.0795  lindep= 0.825
+root 3 converged  |r|= 1.6e-06  e= 0.914730317063  max|de|= -6e-09
+davidson 22 129  |r|= 0.13  e= [ 0.32203739  0.30030873  0.86185335  0.91473032  2.20178309  2.20426505
+  2.20355234]  max|de|= 0.562  lindep= 0.762
+davidson 23 133  |r|= 0.0945  e= [ 0.32203739  0.30030874  0.86186952  0.91473032  2.20480437  2.20346762
+  2.20337617]  max|de|= 0.00302  lindep= 0.775
+davidson 24 137  |r|= 0.0874  e= [ 0.32203739  0.30030874  0.86186834  0.91473032  2.20035454  2.20336339
+  2.20350267]  max|de|= -0.00445  lindep= 0.84
+davidson 25 141  |r|= 0.121  e= [ 0.32203739  0.30030874  0.86186883  0.91473032  2.20356065  2.20347207
+  2.20298526]  max|de|= 0.00321  lindep= 0.832
+davidson 26 145  |r|= 0.305  e= [ 0.32203739  0.30030874  0.30030877  0.91473032  2.19585312  2.2034358
+  2.20349055]  max|de|= -0.00771  lindep= 0.842
+davidson 27 148  |r|= 0.0451  e= [ 0.32203739  0.30030874  0.30030878  0.91473032  2.20373722  2.20345029
+  2.20336981]  max|de|= 0.00788  lindep= 0.815
+davidson 28 151  |r|= 0.316  e= [ 0.32203739  0.30030874  0.30030877  0.91473032  2.20811886  2.20346306
+  2.20346306]  max|de|= 0.00438  lindep= 0.779
+davidson 29 153  |r|= 0.046  e= [ 0.32203739  0.30030874  0.30030877  0.91473032  2.20406215  2.20345813
+  2.20343164]  max|de|= -0.00406  lindep= 0.781
+davidson 30 156  |r|= 0.199  e= [ 0.32203739  0.30030874  0.30030877  0.91473032  2.20565916  2.20349125
+  2.2035432 ]  max|de|= 0.0016  lindep= 0.762
+davidson 31 159  |r|= 0.0376  e= [ 0.32203739  0.30030874  0.30030877  0.91473032  2.20381882  2.20350022
+  2.2034723 ]  max|de|= -0.00184  lindep= 0.776
+davidson 32 162  |r|= 0.26  e= [ 0.3220374   0.30030874  0.30030877  0.91473032  2.20773137  2.20353362
+  2.20368191]  max|de|= 0.00391  lindep= 0.762
+davidson 33 165  |r|= 0.0254  e= [ 0.3220374   0.30030874  0.30030877  0.91473032  2.2035602   2.2035602
+  2.20350814]  max|de|= -0.00417  lindep= 0.793
+davidson 34 167  |r|= 0.122  e= [ 0.3220374   0.30030874  0.30030877  0.91473032  2.20033059  2.20348622
+  2.20353763]  max|de|= -0.00323  lindep= 0.786
+davidson 35 170  |r|= 0.0337  e= [ 0.32203739  0.30030874  0.30030877  0.91473031  2.20363567  2.20349635
+  2.20349635]  max|de|= 0.00331  lindep= 0.83
+davidson 36 172  |r|= 0.196  e= [ 0.32203739  0.30030874  0.30030877  0.91473032  2.20956581  2.20350971
+  2.20350971]  max|de|= 0.00593  lindep= 0.813
+davidson 37 174  |r|= 0.0464  e= [ 0.32203739  0.30030874  0.30030877  0.91473032  2.20353714  2.2034845
+  2.2034845 ]  max|de|= -0.00608  lindep= 0.81
+davidson 38 176  |r|= 0.0843  e= [ 0.32203739  0.30030874  0.30030877  0.91473032  2.2059163   2.20351295
+  2.20351295]  max|de|= 0.00238  lindep= 0.801
+davidson 39 178  |r|= 0.0406  e= [ 0.32203739  0.30030874  0.30030877  0.91473031  2.20341975  2.20351734
+  2.20341975]  max|de|= -0.0024  lindep= 0.813
+davidson 40 180  |r|= 0.0562  e= [ 0.32203739  0.30030874  0.30030877  0.91473031  2.20503096  2.20350465
+  2.2035388 ]  max|de|= 0.00161  lindep=  0.8
+davidson 41 183  |r|= 0.0663  e= [ 0.32203739  0.30030874  0.30030877  0.91473031  2.20386596  2.20354928
+  2.20351021]  max|de|= -0.00148  lindep= 0.803
+davidson 42 186  |r|= 0.0445  e= [ 0.32203739  0.30030874  0.30030877  0.91473031  2.20432253  2.20353519
+  2.20353519]  max|de|= 0.000457  lindep= 0.771
+davidson 43 188  |r|= 0.254  e= [ 0.3220374   0.30030874  0.30030877  0.91473031  2.1974389   2.20351309
+  2.20355338]  max|de|= -0.00688  lindep= 0.779
+davidson 44 191  |r|= 0.0322  e= [ 0.3220374   0.30030874  0.30030877  0.91473031  2.20394936  2.20351601
+  2.20351601]  max|de|= 0.00651  lindep= 0.757
+davidson 45 193  |r|= 0.0674  e= [ 0.3220374   0.30030875  0.30030877  0.91473031  2.2048787   2.20352581
+  2.20341832]  max|de|= 0.000929  lindep= 0.768
+davidson 46 196  |r|= 0.0272  e= [ 0.3220374   0.30030875  0.30030878  0.91473031  2.20385949  2.20352594
+  2.20352594]  max|de|= -0.00102  lindep= 0.777
+davidson 47 198  |r|= 0.0847  e= [ 0.3220374   0.30030875  0.30030878  0.91473031  2.20546033  2.20353071
+  2.20353071]  max|de|= 0.0016  lindep= 0.798
+davidson 48 200  |r|= 0.0268  e= [ 0.3220374   0.30030874  0.30030878  0.91473031  2.2039177   2.20353336
+  2.20353336]  max|de|= -0.00154  lindep= 0.754
+davidson 49 202  |r|= 0.0596  e= [ 0.3220374   0.30030874  0.30030878  0.91473031  2.20484092  2.20349722
+  2.20353946]  max|de|= 0.000923  lindep= 0.778
+davidson 50 205  |r|= 0.0302  e= [ 0.3220374   0.30030875  0.30030878  0.91473031  2.20380695  2.20353402
+  2.20344486]  max|de|= -0.00103  lindep= 0.779
+davidson 51 208  |r|= 0.0433  e= [ 0.3220374   0.30030875  0.30030878  0.91473031  2.20444606  2.20347928
+  2.20352565]  max|de|= 0.000639  lindep= 0.788
+davidson 52 211  |r|= 0.0338  e= [ 0.3220374   0.30030875  0.30030879  0.91473031  2.20371187  2.20351227
+  2.20350231]  max|de|= -0.000734  lindep= 0.793
+davidson 53 214  |r|= 0.028  e= [ 0.3220374   0.30030875  0.30030878  0.91473032  2.20426671  2.20346298
+  2.20352453]  max|de|= 0.000555  lindep= 0.787
+davidson 54 217  |r|= 0.14  e= [ 0.3220374   0.30030875  0.30030878  0.91473032  2.20251071  2.20350585
+  2.20349434]  max|de|= -0.00176  lindep= 0.763
+davidson 55 7  |r|= 0.14  e= [ 0.3220374   0.30030875  0.30030878  0.91473032  2.20251071  2.20350585
+  2.20349434]  max|de|= -1.07e-14  lindep= 0.999
+davidson 56 10  |r|= 0.533  e= [ 0.3220374   0.30030875  0.30030879  0.91473032  2.21222966  2.20350667
+  2.20240111]  max|de|= 0.00972  lindep= 0.719
+davidson 57 13  |r|= 0.114  e= [ 0.3220374   0.30030875  0.30030879  0.91473032  2.20092255  2.2035177
+  2.20346052]  max|de|= -0.0113  lindep= 0.755
+davidson 58 16  |r|= 0.182  e= [ 0.3220374   0.30030875  0.30030879  0.91473032  2.20536564  2.20352622
+  2.20352622]  max|de|= 0.00444  lindep= 0.792
+davidson 59 18  |r|= 0.406  e= [ 0.3220374   0.30030875  0.30030879  0.91473032  2.19385257  2.20351148
+  2.20344437]  max|de|= -0.0115  lindep= 0.698
+davidson 60 21  |r|= 0.114  e= [ 0.3220374   0.30030875  0.3003088   0.91473033  2.2008908   2.20352423
+  2.20313939]  max|de|= 0.00704  lindep= 0.625
+davidson 61 24  |r|= 0.154  e= [ 0.3220374   0.30030875  0.30030879  0.91473032  2.20399668  2.20353855
+  2.20342265]  max|de|= 0.00311  lindep= 0.685
+davidson 62 27  |r|= 0.157  e= [ 0.3220374   0.30030875  0.30030879  0.9147303   2.19925125  2.20347568
+  2.20350376]  max|de|= -0.00475  lindep= 0.746
+davidson 63 30  |r|= 0.0884  e= [ 0.3220374   0.30030875  0.30030879  0.91473033  2.20212252  2.20350808
+  2.20344417]  max|de|= 0.00287  lindep= 0.759
+davidson 64 33  |r|= 0.689  e= [ 0.3220374   0.30030875  0.30030879  0.91473032  2.21876436  2.20357143
+  2.20345599]  max|de|= 0.0166  lindep= 0.744
+davidson 65 36  |r|= 0.0801  e= [ 0.3220374   0.30030875  0.3003088   0.9147303   2.20148175  2.20350165
+  2.20355489]  max|de|= -0.0173  lindep= 0.76
+davidson 66 39  |r|= 0.117  e= [ 0.3220374   0.30030875  0.3003088   0.91473036  2.20461803  2.20350609
+  2.20350609]  max|de|= 0.00314  lindep= 0.766
+davidson 67 41  |r|= 0.161  e= [ 0.3220374   0.30030875  0.30030879  0.91473035  2.19775466  2.20351051
+  2.20351051]  max|de|= -0.00686  lindep= 0.775
+davidson 68 43  |r|= 0.078  e= [ 0.3220374   0.30030875  0.30030879  0.91473034  2.20193615  2.20351577
+  2.20351577]  max|de|= 0.00418  lindep= 0.807
+davidson 69 45  |r|= 0.276  e= [ 0.3220374   0.30030875  0.30030879  0.91473034  2.20681966  2.20351666
+  2.20299283]  max|de|= 0.00488  lindep= 0.782
+davidson 70 48  |r|= 0.0826  e= [ 0.3220374   0.30030875  0.30030879  0.91473034  2.20078684  2.20353885
+  2.20348352]  max|de|= -0.00603  lindep= 0.794
+davidson 71 51  |r|= 0.0807  e= [ 0.3220374   0.30030875  0.30030879  0.91473033  2.20359575  2.20351101
+  2.20346037]  max|de|= 0.00281  lindep= 0.819
+davidson 72 54  |r|= 0.183  e= [ 0.3220374   0.30030875  0.3003088   0.91473032  2.19879476  2.20352704
+  2.20343478]  max|de|= -0.0048  lindep= 0.767
+davidson 73 57  |r|= 0.0677  e= [ 0.3220374   0.30030875  0.3003088   0.91473033  2.2031556   2.20363238
+  2.20350982]  max|de|= 0.00436  lindep= 0.813
+davidson 74 60  |r|= 0.429  e= [ 0.3220374   0.30030875  0.3003088   0.91473033  2.20782397  2.20348634
+  2.20219681]  max|de|= 0.00431  lindep= 0.767
+davidson 75 63  |r|= 0.109  e= [ 0.3220374   0.30030875  0.3003088   0.91473032  2.20129099  2.20353238
+  2.2034963 ]  max|de|= -0.00653  lindep= 0.771
+davidson 76 66  |r|= 0.122  e= [ 0.3220374   0.30030875  0.30030879  0.91473031  2.20435517  2.20342218
+  2.20363124]  max|de|= 0.00306  lindep= 0.763
+davidson 77 69  |r|= 0.142  e= [ 0.3220374   0.30030875  0.30030879  0.91473031  2.19948347  2.20351813
+  2.20334469]  max|de|= -0.00487  lindep= 0.754
+davidson 78 72  |r|= 0.0974  e= [ 0.3220374   0.30030875  0.3003088   0.91473018  2.2024646   2.20311851
+  2.20355304]  max|de|= 0.00298  lindep= 0.76
+davidson 79 76  |r|= 0.261  e= [ 0.3220374   0.30030875  0.30030879  0.9147303   2.1979768   2.20351067
+  2.20309135]  max|de|= -0.00449  lindep= 0.759
+root 3 converged  |r|= 3.14e-06  e= 0.914730329398  max|de|= 2.7e-08
+davidson 80 80  |r|= 0.0826  e= [ 0.3220374   0.30030875  0.30030881  0.91473033  2.20200497  2.20365343
+  2.20341279]  max|de|= 0.00403  lindep= 0.757
+davidson 81 83  |r|= 0.284  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20701891  2.20339992
+  2.20364145]  max|de|= 0.00501  lindep= 0.76
+davidson 82 86  |r|= 0.0851  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20208731  2.20359571
+  2.20346417]  max|de|= -0.00493  lindep= 0.772
+davidson 83 89  |r|= 0.0938  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20471015  2.2033475
+  2.20348852]  max|de|= 0.00262  lindep= 0.798
+davidson 84 92  |r|= 0.0886  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20106196  2.20347157
+  2.2033982 ]  max|de|= -0.00365  lindep= 0.788
+davidson 85 95  |r|= 0.0472  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.2030767   2.20332205
+  2.20353977]  max|de|= 0.00201  lindep= 0.813
+davidson 86 98  |r|= 0.138  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.19804798  2.20343039
+  2.20195801]  max|de|= -0.00503  lindep= 0.825
+davidson 87 101  |r|= 0.111  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20268171  2.20362281
+  2.20338933]  max|de|= 0.00463  lindep= 0.832
+davidson 88 104  |r|= 0.323  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.21053143  2.20344314
+  2.203549  ]  max|de|= 0.00785  lindep= 0.82
+davidson 89 107  |r|= 0.0649  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20213301  2.20351826
+  2.20339576]  max|de|= -0.0084  lindep= 0.801
+davidson 90 110  |r|= 0.148  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20520609  2.20340377
+  2.20343387]  max|de|= 0.00307  lindep= 0.797
+davidson 91 113  |r|= 0.101  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20174528  2.20351414
+  2.20346447]  max|de|= -0.00346  lindep= 0.799
+davidson 92 116  |r|= 0.0923  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.2039244   2.20327455
+  2.20343972]  max|de|= 0.00218  lindep= 0.752
+davidson 93 119  |r|= 0.149  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.19972174  2.20343847
+  2.20335483]  max|de|= -0.0042  lindep= 0.758
+davidson 94 122  |r|= 0.122  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.20231518  2.20308415
+  2.20349338]  max|de|= -0.00112  lindep= 0.775
+davidson 95 125  |r|= 0.298  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.19395219  2.20336511
+  2.20503132]  max|de|= -0.00836  lindep= 0.785
+davidson 96 128  |r|= 0.0706  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20263177  2.2033264
+  2.20340171]  max|de|= 0.00868  lindep= 0.779
+davidson 97 131  |r|= 0.223  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20918057  2.2033966
+  2.20357666]  max|de|= 0.00655  lindep= 0.765
+davidson 98 134  |r|= 0.0598  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20245602  2.20335082
+  2.20335082]  max|de|= -0.00672  lindep= 0.801
+davidson 99 136  |r|= 0.103  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20492311  2.20403966
+  2.20342764]  max|de|= 0.00247  lindep= 0.804
+davidson 100 139  |r|= 0.137  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20030346  2.20353692
+  2.20300791]  max|de|= -0.00462  lindep= 0.788
+davidson 101 142  |r|= 0.154  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.20577216  2.20335179
+  2.20335179]  max|de|= 0.00547  lindep= 0.83
+davidson 102 144  |r|= 0.113  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.19971018  2.20353971
+  2.20344819]  max|de|= -0.00606  lindep= 0.804
+davidson 103 147  |r|= 0.0829  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.20390047  2.20253427
+  2.20306915]  max|de|= -0.000914  lindep= 0.823
+davidson 104 150  |r|= 0.203  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.19940759  2.20344034
+  2.20344034]  max|de|= -0.00313  lindep= 0.824
+davidson 105 152  |r|= 0.0323  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.20368372  2.20343397
+  2.20318201]  max|de|= 0.00403  lindep= 0.823
+davidson 106 155  |r|= 0.237  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.19733448  2.20395596
+  2.20348761]  max|de|= -0.0061  lindep= 0.792
+davidson 107 158  |r|= 0.0191  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.20374803  2.20374803
+  2.20344335]  max|de|= -0.000513  lindep= 0.798
+davidson 108 160  |r|= 0.328  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.19507659  2.20352221
+  2.20352221]  max|de|= -0.00867  lindep= 0.76
+davidson 109 162  |r|= 0.302  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.19640846  2.20452207
+  2.20313485]  max|de|= 0.00806  lindep= 0.764
+davidson 110 165  |r|= 0.108  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.2057791   2.20357348
+  2.20357348]  max|de|= 0.00937  lindep= 0.813
+davidson 111 167  |r|= 0.103  e= [ 0.3220374   0.30030875  0.30030882  0.91473034  2.20556489  2.20338262
+  2.20359133]  max|de|= -0.000214  lindep= 0.793
+davidson 112 170  |r|= 0.374  e= [ 0.3220374   0.30030875  0.30030881  0.91473035  2.17755205  2.20344624
+  2.20429363]  max|de|= -0.028  lindep= 0.767
+davidson 113 173  |r|= 0.0686  e= [ 0.3220374   0.30030875  0.30030881  0.91473038  2.20440462  2.20319741
+  2.20349139]  max|de|= 0.000958  lindep= 0.771
+davidson 114 176  |r|= 0.0518  e= [ 0.3220374   0.30030875  0.30030882  0.91473032  2.20416556  2.2034676
+  2.20390689]  max|de|= 0.000968  lindep= 0.784
+davidson 115 179  |r|= 0.0702  e= [ 0.3220374   0.30030875  0.30030882  0.91473036  2.2041472   2.20323081
+  2.20362883]  max|de|= 0.00068  lindep= 0.775
+davidson 116 182  |r|= 0.0554  e= [ 0.32203741  0.30030875  0.30030882  0.91473036  2.20447517  2.20334831
+  2.20351139]  max|de|= 0.000328  lindep= 0.803
+davidson 117 185  |r|= 0.0741  e= [ 0.3220374   0.30030875  0.30030882  0.91473035  2.2037212   2.20340861
+  2.20363243]  max|de|= -0.000754  lindep= 0.78
+davidson 118 188  |r|= 0.0372  e= [ 0.32203741  0.30030875  0.30030882  0.91473034  2.20435614  2.20330543
+  2.20343302]  max|de|= 0.000635  lindep= 0.802
+davidson 119 191  |r|= 0.213  e= [ 0.32203741  0.30030875  0.30030881  0.91473034  2.2002612   2.20348688
+  2.20348688]  max|de|= -0.00409  lindep= 0.808
+davidson 120 193  |r|= 0.0656  e= [ 0.32203741  0.30030875  0.30030881  0.91473034  2.20414946  2.2035343
+  2.2032158 ]  max|de|= 0.00389  lindep= 0.832
+davidson 121 196  |r|= 0.168  e= [ 0.32203741  0.30030875  0.30030881  0.91473034  2.20636001  2.20341952
+  2.20354767]  max|de|= 0.00221  lindep= 0.821
+davidson 122 199  |r|= 0.136  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.20557372  2.20334593
+  2.20334593]  max|de|= -0.000786  lindep= 0.835
+davidson 123 201  |r|= 0.0465  e= [ 0.32203741  0.30030875  0.30030881  0.91473034  2.20481077  2.2034779
+  2.20331139]  max|de|= -0.00226  lindep= 0.817
+davidson 124 204  |r|= 0.0763  e= [ 0.32203741  0.30030875  0.30030881  0.91473034  2.20503419  2.20351283
+  2.20351283]  max|de|= 0.000223  lindep= 0.83
+davidson 125 206  |r|= 0.0632  e= [ 0.32203741  0.30030875  0.30030881  0.91473033  2.20479241  2.20356237
+  2.20341209]  max|de|= -0.000242  lindep= 0.764
+davidson 126 209  |r|= 0.0658  e= [ 0.32203741  0.30030875  0.30030881  0.91473033  2.20473345  2.20350722
+  2.20346995]  max|de|= 0.00117  lindep= 0.796
+davidson 127 212  |r|= 0.048  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20468842  2.203533
+  2.20349774]  max|de|= -4.5e-05  lindep= 0.803
+davidson 128 215  |r|= 0.0904  e= [ 0.32203741  0.30030875  0.30030881  0.91473033  2.20471753  2.20361107
+  2.20343361]  max|de|= 7.81e-05  lindep= 0.738
+davidson 129 7  |r|= 0.0904  e= [ 0.32203741  0.30030875  0.30030881  0.91473033  2.20471753  2.20361107
+  2.20343361]  max|de|= -9.33e-15  lindep= 0.993
+davidson 130 10  |r|= 2.03  e= [ 0.3220374   0.30030875  0.30030881  0.91473032  2.22207442  2.20231454
+  2.20392524]  max|de|= 0.0174  lindep= 0.714
+davidson 131 13  |r|= 0.0833  e= [ 0.3220374   0.30030875  0.30030881  0.91473032  2.20483233  2.20355888
+  2.20340411]  max|de|= -0.0172  lindep= 0.708
+davidson 132 16  |r|= 0.155  e= [ 0.3220374   0.30030875  0.30030881  0.91473033  2.20662317  2.20369847
+  2.2034477 ]  max|de|= 0.00179  lindep= 0.653
+davidson 133 19  |r|= 0.358  e= [ 0.3220374   0.30030875  0.30030881  0.91473033  2.19917151  2.20336855
+  2.20336855]  max|de|= -0.00745  lindep= 0.66
+davidson 134 21  |r|= 0.0686  e= [ 0.3220374   0.30030875  0.30030881  0.91473032  2.20480821  2.20330417
+  2.20350355]  max|de|= 0.00564  lindep= 0.696
+davidson 135 24  |r|= 0.142  e= [ 0.3220374   0.30030875  0.30030882  0.91473032  2.20759999  2.2034513
+  2.20382268]  max|de|= 0.00279  lindep= 0.771
+davidson 136 27  |r|= 0.0454  e= [ 0.3220374   0.30030875  0.30030881  0.91473032  2.20334658  2.20334658
+  2.20359835]  max|de|= -0.000476  lindep= 0.722
+davidson 137 29  |r|= 0.0557  e= [ 0.3220374   0.30030875  0.30030881  0.91473032  2.20529803  2.20353773
+  2.20307586]  max|de|= 0.0017  lindep= 0.751
+davidson 138 32  |r|= 0.345  e= [ 0.3220374   0.30030875  0.30030882  0.91473032  2.19647874  2.20356061
+  2.2034094 ]  max|de|= -0.00882  lindep= 0.784
+davidson 139 35  |r|= 0.0598  e= [ 0.3220374   0.30030875  0.30030882  0.91473032  2.2044644   2.20381305
+  2.20345149]  max|de|= 0.00799  lindep= 0.783
+davidson 140 38  |r|= 0.0688  e= [ 0.3220374   0.30030875  0.30030882  0.91473032  2.20628972  2.20353017
+  2.2033542 ]  max|de|= 0.00183  lindep= 0.767
+davidson 141 41  |r|= 0.191  e= [ 0.3220374   0.30030875  0.30030882  0.9147303   2.20621762  2.20358378
+  2.20328377]  max|de|= -7.21e-05  lindep= 0.767
+davidson 142 44  |r|= 0.0894  e= [ 0.3220374   0.30030875  0.30030881  0.91473028  2.20490624  2.20333996
+  2.20333996]  max|de|= -0.00131  lindep= 0.78
+davidson 143 46  |r|= 0.247  e= [ 0.3220374   0.30030875  0.30030881  0.91473033  2.21143987  2.20339694
+  2.20353887]  max|de|= 0.00653  lindep= 0.777
+davidson 144 49  |r|= 0.0705  e= [ 0.3220374   0.30030875  0.30030881  0.91473031  2.20418918  2.20344507
+  2.20357371]  max|de|= -0.00725  lindep= 0.791
+davidson 145 52  |r|=  0.1  e= [ 0.3220374   0.30030875  0.30030882  0.91473026  2.20594874  2.20354515
+  2.20354515]  max|de|= 0.00176  lindep= 0.784
+davidson 146 54  |r|= 0.191  e= [ 0.3220374   0.30030875  0.30030881  0.91473036  2.20169259  2.20360687
+  2.20343324]  max|de|= -0.00426  lindep= 0.78
+davidson 147 57  |r|= 0.0834  e= [ 0.3220374   0.30030875  0.30030881  0.91473033  2.20504435  2.20365098
+  2.20324978]  max|de|= 0.00335  lindep= 0.814
+davidson 148 60  |r|= 0.204  e= [ 0.3220374   0.30030875  0.30030881  0.91473029  2.20702074  2.20362505
+  2.20330693]  max|de|= 0.00198  lindep= 0.751
+davidson 149 63  |r|= 0.0663  e= [ 0.3220374   0.30030875  0.30030881  0.91473033  2.20459297  2.20376669
+  2.20347482]  max|de|= -0.00243  lindep= 0.763
+davidson 150 66  |r|= 0.107  e= [ 0.3220374   0.30030875  0.30030881  0.91473034  2.2059339   2.20352419
+  2.20352419]  max|de|= 0.00134  lindep= 0.767
+davidson 151 68  |r|= 0.225  e= [ 0.3220374   0.30030875  0.30030881  0.91473033  2.20006271  2.20382195
+  2.20364925]  max|de|= -0.00346  lindep= 0.786
+davidson 152 71  |r|= 0.0477  e= [ 0.3220374   0.30030875  0.30030881  0.91473032  2.20502181  2.20350451
+  2.20364455]  max|de|= 0.0012  lindep= 0.758
+davidson 153 74  |r|= 0.138  e= [ 0.3220374   0.30030875  0.30030881  0.91473032  2.20041022  2.20366428
+  2.20041022]  max|de|= -0.00461  lindep= 0.773
+davidson 154 76  |r|= 0.0325  e= [ 0.3220374   0.30030875  0.30030881  0.91473032  2.20422595  2.2036595
+  2.20323391]  max|de|= 0.00325  lindep= 0.766
+davidson 155 79  |r|= 0.136  e= [ 0.3220374   0.30030875  0.30030881  0.91473032  2.2061199   2.20347146
+  2.20376848]  max|de|= 0.00189  lindep= 0.763
+davidson 156 82  |r|= 0.0323  e= [ 0.3220374   0.30030875  0.30030881  0.91473033  2.20411368  2.2036505
+  2.20312557]  max|de|= -0.000643  lindep= 0.782
+davidson 157 85  |r|= 0.051  e= [ 0.3220374   0.30030875  0.30030881  0.91473031  2.20481406  2.20368935
+  2.20339593]  max|de|= 0.0007  lindep= 0.787
+davidson 158 88  |r|= 0.0978  e= [ 0.3220374   0.30030875  0.30030881  0.91473031  2.20499869  2.20318869
+  2.20378164]  max|de|= 0.0016  lindep= 0.782
+davidson 159 91  |r|= 0.0397  e= [ 0.3220374   0.30030875  0.30030881  0.91473032  2.20465527  2.2035955
+  2.2033282 ]  max|de|= 0.000874  lindep= 0.806
+davidson 160 94  |r|= 0.0623  e= [ 0.3220374   0.30030875  0.30030881  0.91473031  2.20424176  2.20424176
+  2.20353265]  max|de|= 0.000646  lindep= 0.814
+davidson 161 96  |r|= 0.185  e= [ 0.3220374   0.30030875  0.30030881  0.91473031  2.20698371  2.20353795
+  2.20353795]  max|de|= 0.00274  lindep= 0.808
+davidson 162 98  |r|= 0.0378  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20423175  2.20361729
+  2.20330162]  max|de|= -0.00275  lindep= 0.816
+davidson 163 101  |r|= 0.0755  e= [ 0.32203741  0.30030875  0.30030881  0.91473031  2.20514004  2.20352907
+  2.20342024]  max|de|= 0.000908  lindep= 0.801
+davidson 164 104  |r|= 0.0487  e= [ 0.32203741  0.30030875  0.30030881  0.91473031  2.20399604  2.20357303
+  2.20326771]  max|de|= -0.00114  lindep= 0.81
+davidson 165 107  |r|= 0.0439  e= [ 0.32203741  0.30030875  0.30030881  0.91473031  2.20451907  2.20351664
+  2.20331519]  max|de|= 0.000523  lindep= 0.783
+davidson 166 110  |r|= 0.0988  e= [ 0.32203741  0.30030875  0.30030881  0.91473031  2.20253946  2.20365492
+  2.20332608]  max|de|= -0.00198  lindep= 0.779
+davidson 167 113  |r|= 0.136  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20425018  2.20278908
+  2.20343293]  max|de|= 0.00171  lindep= 0.802
+davidson 168 116  |r|= 0.291  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.2080776   2.20349145
+  2.20349145]  max|de|= 0.00383  lindep= 0.754
+davidson 169 118  |r|= 0.0486  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20384737  2.2035068
+  2.2035068 ]  max|de|= -0.00423  lindep= 0.782
+davidson 170 120  |r|= 0.0719  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20437141  2.20352878
+  2.20337215]  max|de|= 0.000524  lindep= 0.794
+davidson 171 123  |r|= 0.0393  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20390175  2.20356558
+  2.20356558]  max|de|= 0.000373  lindep= 0.78
+davidson 172 125  |r|= 0.198  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20558748  2.20381954
+  2.20338217]  max|de|= 0.00169  lindep= 0.79
+davidson 173 128  |r|= 0.375  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20935312  2.2038733
+  2.20362106]  max|de|= 0.00597  lindep= 0.773
+davidson 174 131  |r|= 0.0544  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20479756  2.20390968
+  2.20337214]  max|de|= 0.000924  lindep= 0.786
+davidson 175 134  |r|= 0.0616  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20386963  2.20386963
+  2.20349397]  max|de|= -0.000928  lindep= 0.795
+davidson 176 136  |r|= 0.0337  e= [ 0.32203741  0.30030875  0.30030881  0.91473032  2.20386778  2.20359017
+  2.20306429]  max|de|= -0.00043  lindep= 0.797
+davidson 177 139  |r|= 0.111  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.20281795  2.20377096
+  2.20341591]  max|de|= -0.000772  lindep= 0.822
+davidson 178 142  |r|= 0.113  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.20149957  2.20355113
+  2.20386058]  max|de|= -0.00192  lindep= 0.789
+davidson 179 145  |r|= 0.0759  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.20478611  2.2035752
+  2.20327986]  max|de|= 0.00178  lindep= 0.84
+davidson 180 148  |r|= 0.0695  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.2040189   2.20364546
+  2.2040189 ]  max|de|= 0.000739  lindep= 0.818
+davidson 181 150  |r|= 0.0295  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.2042887   2.20385389
+  2.2032816 ]  max|de|= -0.000364  lindep= 0.799
+davidson 182 153  |r|= 0.0453  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.20461571  2.20380009
+  2.20329306]  max|de|= 0.000327  lindep= 0.797
+davidson 183 156  |r|= 0.0349  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.20412716  2.20401202
+  2.20335056]  max|de|= -0.000489  lindep= 0.778
+davidson 184 159  |r|= 0.0517  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.2047526   2.20353129
+  2.20330825]  max|de|= 0.000625  lindep= 0.771
+davidson 185 162  |r|= 0.0393  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.20389633  2.20389633
+  2.20338855]  max|de|= -0.000856  lindep= 0.805
+davidson 186 164  |r|= 0.0384  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.20430231  2.20391547
+  2.20335214]  max|de|= 0.000406  lindep= 0.787
+davidson 187 167  |r|= 0.0619  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.20383431  2.20345382
+  2.20336358]  max|de|= -0.000468  lindep= 0.796
+davidson 188 170  |r|= 0.0417  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.20458183  2.20390881
+  2.20332905]  max|de|= 0.000748  lindep= 0.796
+davidson 189 173  |r|= 0.0522  e= [ 0.32203741  0.30030875  0.3003088   0.91473032  2.20345756  2.20296656
+  2.20345756]  max|de|= -0.000942  lindep= 0.791
+davidson 190 175  |r|= 0.0406  e= [ 0.32203741  0.30030875  0.30030879  0.91473032  2.20462466  2.20370429
+  2.20336759]  max|de|= 0.00166  lindep= 0.772
+davidson 191 178  |r|= 0.109  e= [ 0.32203741  0.30030875  0.30030879  0.91473032  2.20566089  2.20566089
+  2.20317755]  max|de|= 0.00196  lindep= 0.779
+davidson 192 180  |r|= 0.0356  e= [ 0.32203741  0.30030875  0.30030879  0.91473032  2.2044262   2.2036138
+  2.20341174]  max|de|= -0.00205  lindep= 0.788
+davidson 193 183  |r|= 0.144  e= [ 0.32203741  0.30030875  0.30030879  0.91473032  2.20556435  2.20452821
+  2.20343732]  max|de|= 0.00114  lindep= 0.784
+davidson 194 186  |r|= 0.0277  e= [ 0.32203741  0.30030875  0.30030879  0.91473032  2.20418725  2.20364003
+  2.20343648]  max|de|= -0.00138  lindep= 0.813
+davidson 195 189  |r|= 0.0766  e= [ 0.32203741  0.30030875  0.30030879  0.91473032  2.20450886  2.20384883
+  2.20346522]  max|de|= 0.000322  lindep= 0.83
+davidson 196 192  |r|= 0.0279  e= [ 0.32203741  0.30030875  0.30030879  0.91473032  2.2044173   2.20366464
+  2.2034018 ]  max|de|= -0.000184  lindep= 0.821
+davidson 197 195  |r|= 0.0961  e= [ 0.32203741  0.30030875  0.30030879  0.91473031  2.20478306  2.20396437
+  2.20337503]  max|de|= 0.000366  lindep= 0.822
+davidson 198 198  |r|= 0.0371  e= [ 0.32203741  0.30030875  0.30030879  0.91473032  2.20422687  2.20355137
+  2.20340944]  max|de|= -0.000556  lindep= 0.765
+davidson 199 201  |r|= 0.0826  e= [ 0.32203741  0.30030875  0.30030879  0.91473033  2.20519212  2.20383929
+  2.20342247]  max|de|= 0.000965  lindep= 0.741
+IP root 0 E = 0.3220374061624934  qpwt = 0.868325  conv = True
+IP root 1 E = 0.3003087497157103  qpwt = 0.922455  conv = True
+IP root 2 E = 0.3003087867145326  qpwt = 0.922455  conv = True
+IP root 3 E = 0.9147303259896662  qpwt = 0.76034  conv = True
+IP root 4 E = 2.205192118656062  qpwt = 0.876811  conv = False
+IP root 5 E = 2.203839288638458  qpwt = 0.941795  conv = False
+IP root 6 E = 2.20342247009036  qpwt = 0.947656  conv = False
+    CPU time for IP-CCSD     72.92 sec, wall time     72.95 sec
+    CPU time for EOM-CCSD shared one-electron intermediates      0.02 sec, wall time      0.01 sec
+    CPU time for EOM-CCSD EA intermediates      2.36 sec, wall time      2.37 sec
+tol 1e-07  toloose 0.000316228
+max_cycle 200  max_space 236  max_memory 2000  incore True
+davidson 0 12  |r|= 0.259  e= [-0.0070819   0.06458674  0.06458674  0.11731559  0.18539653  0.19019596
+  0.19019596  0.24087019  0.24087019  0.25228555  0.39601429  0.39601429]  max|de|= 0.396  lindep=    1
+davidson 1 24  |r|= 0.0652  e= [-0.04498701  0.04402723  0.04402723  0.09297333  0.15356553  0.17927896
+  0.17927437  0.22225237  0.22225237  0.23384721  0.36039037  0.36039037]  max|de|= -0.0379  lindep= 0.907
+davidson 2 33  |r|= 0.138  e= [-0.04731506  0.04295961  0.04410202  0.08432578  0.15023714  0.17886619
+  0.17886051  0.22224102  0.21800479  0.23918418  0.36478657  0.35914115]  max|de|= -0.00865  lindep= 0.828
+davidson 3 45  |r|= 0.183  e= [-0.04719272  0.04273749  0.04291046  0.07685376  0.15315254  0.17873255
+  0.17873703  0.22163169  0.22163169  0.23213513  0.36035278  0.37031517]  max|de|= 0.0112  lindep= 0.788
+davidson 4 56  |r|= 0.0465  e= [-0.04725091  0.04283404  0.04271513  0.10825721  0.15208086  0.17874922
+  0.17874435  0.22113477  0.21950701  0.23115164  0.36006797  0.36006797]  max|de|= 0.0314  lindep= 0.819
+davidson 5 67  |r|= 0.12  e= [-0.04723722  0.0427973   0.04282682  0.10669398  0.15195604  0.17862473
+  0.17861996  0.2152196   0.21881103  0.23009152  0.3592523   0.35615233]  max|de|= -0.00592  lindep= 0.851
+davidson 6 79  |r|= 0.173  e= [-0.04723964  0.04279825  0.04279515  0.10638715  0.15189542  0.17862829
+  0.17862505  0.21953009  0.21862312  0.22860011  0.36820206  0.35911039]  max|de|= 0.00895  lindep= 0.859
+davidson 7 91  |r|= 0.0858  e= [-0.04723912  0.04280035  0.04280035  0.10644454  0.15190366  0.17862753
+  0.1786246   0.21872064  0.21855123  0.23470441  0.35880653  0.35540788]  max|de|= -0.0094  lindep= 0.851
+root 0 converged  |r|= 1.08e-06  e= -0.0472391332305  max|de|= -1.81e-08
+root 5 converged  |r|= 8.77e-05  e= 0.178627443499  max|de|= -8.81e-08
+davidson 8 102  |r|= 0.051  e= [-0.04723913  0.04279988  0.04280014  0.10646419  0.15190629  0.17862744
+  0.17862517  0.21857292  0.21857292  0.23257849  0.36249165  0.36249165]  max|de|= 0.00708  lindep= 0.837
+root 1 converged  |r|= 1.41e-05  e= 0.042799824301  max|de|= -5.76e-08
+davidson 9 110  |r|= 0.142  e= [-0.04723914  0.04279982  0.04279971  0.10647145  0.15190801  0.17862744
+  0.17862768  0.21855222  0.21858378  0.23189708  0.36763636  0.35955414]  max|de|= 0.00514  lindep= 0.824
+davidson 10 119  |r|= 0.0524  e= [-0.04723914  0.04279983  0.04279983  0.10647071  0.15190767  0.17862744
+  0.17862714  0.21856592  0.21858224  0.23143467  0.36011653  0.36011653]  max|de|= -0.00752  lindep= 0.853
+root 1 converged  |r|= 4.13e-06  e= 0.0427998063396  max|de|= -2.41e-08
+root 2 converged  |r|= 2.47e-06  e= 0.0427998387135  max|de|= 8.23e-09
+root 3 converged  |r|= 7.32e-06  e= 0.106470609838  max|de|= -9.58e-08
+root 4 converged  |r|= 1.14e-05  e= 0.151907716997  max|de|= 4.71e-08
+davidson 11 127  |r|= 0.0894  e= [-0.04723914  0.04279981  0.04279984  0.10647061  0.15190772  0.17862744
+  0.17862842  0.21857596  0.2185835   0.23101032  0.36260437  0.36548808]  max|de|= 0.00537  lindep= 0.857
+davidson 12 133  |r|= 0.0703  e= [-0.04723914  0.04279981  0.04279984  0.1064706   0.15190772  0.17862744
+  0.17862818  0.30108964  0.21858287  0.23086002  0.36211762  0.36009834]  max|de|= -0.0644  lindep= 0.85
+root 6 converged  |r|= 6.86e-06  e= 0.178628261115  max|de|= 8.44e-08
+davidson 13 139  |r|= 0.0873  e= [-0.04723914  0.04279981  0.04279984  0.1064706   0.15190775  0.17862745
+  0.17862826  0.21858341  0.21858341  0.23081863  0.36012784  0.36580635]  max|de|= 0.00571  lindep= 0.837
+davidson 14 143  |r|= 0.037  e= [-0.04723914  0.04279984  0.04279981  0.10647059  0.15190768  0.17862745
+  0.17862826  0.21858428  0.21858308  0.23091404  0.35816812  0.36181279]  max|de|= -0.00399  lindep= 0.852
+root 8 converged  |r|= 8.73e-06  e= 0.218583125163  max|de|= 4.67e-08
+davidson 15 148  |r|= 0.042  e= [-0.04723914  0.04279985  0.04279982  0.10647057  0.15190768  0.17862745
+  0.17862826  0.21858326  0.21858313  0.23083818  0.35695969  0.35946101]  max|de|= -0.00235  lindep= 0.848
+root 8 converged  |r|= 1.57e-05  e= 0.218583253702  max|de|= -1.08e-08
+davidson 16 152  |r|= 0.0574  e= [-0.04723914  0.04279985  0.04279982  0.10647057  0.15190766  0.17862745
+  0.17862826  0.21858313  0.21858325  0.23083159  0.35587178  0.35728614]  max|de|= -0.00217  lindep= 0.847
+davidson 17 155  |r|= 0.0381  e= [-0.04723914  0.04279984  0.04279982  0.10647057  0.15190766  0.17862745
+  0.17862826  0.2185831   0.2185832   0.2308294   0.35620269  0.35790436]  max|de|= -0.00108  lindep= 0.837
+root 9 converged  |r|= 6.76e-05  e= 0.230829309486  max|de|= -9.49e-08
+davidson 18 158  |r|= 0.0358  e= [-0.04723914  0.04279984  0.04279982  0.10647056  0.15190766  0.17862745
+  0.17862826  0.21858308  0.21858321  0.23082931  0.35547224  0.35706184]  max|de|= -0.000843  lindep= 0.839
+davidson 19 160  |r|= 0.0679  e= [-0.04723914  0.04279984  0.04279982  0.10647056  0.15190766  0.17862745
+  0.17862826  0.21858308  0.21858321  0.23082931  0.36066642  0.35681654]  max|de|= 0.00519  lindep= 0.831
+davidson 20 162  |r|= 0.0287  e= [-0.04723914  0.04279984  0.04279982  0.10647056  0.15190766  0.17862745
+  0.17862826  0.21858309  0.21858321  0.23082931  0.35757874  0.35671149]  max|de|= -0.00309  lindep= 0.837
+davidson 21 164  |r|= 0.0177  e= [-0.04723914  0.04279982  0.04279983  0.10647056  0.15190766  0.17862745
+  0.17862826  0.21858309  0.21858321  0.23082931  0.35696108  0.35665724]  max|de|= -0.000618  lindep= 0.838
+davidson 22 166  |r|= 0.00966  e= [-0.04723914  0.04279982  0.04279983  0.10647056  0.15190766  0.17862745
+  0.17862826  0.21858309  0.21858321  0.23082931  0.35652618  0.35686536]  max|de|= -0.000131  lindep= 0.853
+davidson 23 168  |r|= 0.0253  e= [-0.04723914  0.04279982  0.04279983  0.10647056  0.15190766  0.17862745
+  0.17862826  0.2185831   0.21858321  0.23082931  0.35617147  0.35683703]  max|de|= -0.000355  lindep= 0.853
+davidson 24 170  |r|= 0.00766  e= [-0.04723914  0.04279981  0.04279983  0.10647056  0.15190765  0.17862745
+  0.17862826  0.2185831   0.21858321  0.23082928  0.35687339  0.35687339]  max|de|= 3.64e-05  lindep= 0.847
+davidson 25 171  |r|= 0.00549  e= [-0.04723914  0.04279982  0.04279983  0.10647056  0.15190765  0.17862745
+  0.17862826  0.2185831   0.21858321  0.23082928  0.35674992  0.35674992]  max|de|= -0.000123  lindep= 0.838
+davidson 26 172  |r|= 0.0242  e= [-0.04723914  0.04279982  0.04279983  0.10647056  0.15190765  0.17862745
+  0.17862826  0.2185831   0.21858321  0.23082928  0.35666854  0.37139766]  max|de|= 0.329  lindep= 0.84
+davidson 27 174  |r|= 0.011  e= [-0.04723914  0.04279982  0.04279983  0.10647056  0.15190765  0.17862745
+  0.17862826  0.2185831   0.2185832   0.23082928  0.35640148  0.35672558]  max|de|= -0.000267  lindep= 0.845
+davidson 28 176  |r|= 0.0137  e= [-0.04723914  0.04279981  0.04279983  0.10647056  0.15190765  0.17862745
+  0.17862826  0.2185831   0.21858319  0.23082928  0.35604023  0.35664798]  max|de|= -0.000361  lindep= 0.848
+davidson 29 178  |r|= 0.0338  e= [-0.04723914  0.04279981  0.04279983  0.10647056  0.15190765  0.17862745
+  0.17862826  0.2185831   0.21858318  0.2308293   0.35880713  0.35661928]  max|de|= 0.00277  lindep= 0.832
+davidson 30 180  |r|= 0.0196  e= [-0.04723914  0.04279981  0.04279983  0.10647056  0.15190765  0.17862742
+  0.17862826  0.2185831   0.21858318  0.23082929  0.35699843  0.35651032]  max|de|= -0.00181  lindep= 0.83
+davidson 31 182  |r|= 0.0163  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862723
+  0.17862826  0.21858311  0.21858318  0.23082939  0.35636321  0.35683159]  max|de|= -0.000635  lindep= 0.827
+davidson 32 185  |r|= 0.0366  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862794
+  0.17862826  0.2185831   0.21858317  0.23082925  0.35575248  0.35657936]  max|de|= -0.000611  lindep= 0.807
+davidson 33 189  |r|= 0.00965  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.1786278
+  0.17862826  0.21858311  0.21858318  0.2308288   0.35640977  0.35650289]  max|de|= 0.000657  lindep= 0.823
+davidson 34 193  |r|= 0.0743  e= [-0.04723914  0.04279981  0.04279983  0.10647054  0.15190764  0.17862816
+  0.17862826  0.21858311  0.21858318  0.230829    0.35626911  0.3567633 ]  max|de|= 0.00026  lindep= 0.827
+root 5 converged  |r|= 7.26e-06  e= 0.178628220357  max|de|= 5.92e-08
+root 9 converged  |r|= 1.45e-05  e= 0.230829053196  max|de|= 4.85e-08
+davidson 35 197  |r|= 0.0279  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862822
+  0.17862826  0.21858311  0.21858318  0.23082905  0.35636176  0.37098565]  max|de|= 0.0147  lindep= 0.839
+davidson 36 199  |r|= 0.0154  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862824
+  0.17862826  0.21858311  0.21858318  0.23082905  0.35634242  0.3565494 ]  max|de|= 0.000188  lindep= 0.838
+davidson 37 201  |r|= 0.00575  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862824
+  0.17862826  0.21858311  0.21858318  0.23082906  0.35634352  0.35642583]  max|de|= -0.000124  lindep= 0.846
+davidson 38 203  |r|= 0.00331  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.21858311  0.21858319  0.23082906  0.35636028  0.35639527]  max|de|= -3.06e-05  lindep= 0.829
+davidson 39 205  |r|= 0.00216  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862824
+  0.17862826  0.21858311  0.2185832   0.23082906  0.35639711  0.35635735]  max|de|= -2.93e-06  lindep= 0.829
+davidson 40 207  |r|= 0.00122  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862824
+  0.17862826  0.2185831   0.2185832   0.23082906  0.35636784  0.35641078]  max|de|= 1.37e-05  lindep= 0.83
+davidson 41 209  |r|= 0.000806  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.2185832   0.23082906  0.35637232  0.35641545]  max|de|= 4.67e-06  lindep= 0.821
+davidson 42 211  |r|= 0.000963  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858319  0.23082906  0.35637596  0.35641288]  max|de|= 3.63e-06  lindep= 0.811
+root 11 converged  |r|= 0.000286  e= 0.356412795856  max|de|= -8.1e-08
+davidson 43 213  |r|= 0.00102  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858318  0.23082906  0.35638665  0.3564128 ]  max|de|= 1.07e-05  lindep= 0.825
+davidson 44 214  |r|= 0.0007  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858318  0.23082906  0.35639359  0.35641285]  max|de|= 6.94e-06  lindep= 0.825
+davidson 45 215  |r|= 0.00044  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858318  0.23082906  0.35639751  0.3564129 ]  max|de|= 3.92e-06  lindep= 0.818
+davidson 46 216  |r|= 0.000299  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858318  0.23082906  0.35639922  0.3564129 ]  max|de|= 1.71e-06  lindep= 0.815
+davidson 47 217  |r|= 0.000281  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858317  0.23082906  0.35640144  0.35641294]  max|de|= 2.22e-06  lindep= 0.821
+davidson 48 218  |r|= 0.000281  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858317  0.23082906  0.35640185  0.35641298]  max|de|= 4.08e-07  lindep= 0.825
+davidson 49 219  |r|= 0.00028  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858317  0.23082906  0.35640197  0.35641294]  max|de|= 1.21e-07  lindep= 0.813
+davidson 50 220  |r|= 0.00028  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858317  0.23082906  0.35640212  0.35641294]  max|de|= 1.45e-07  lindep= 0.825
+davidson 51 221  |r|= 0.00028  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858317  0.23082906  0.35640173  0.35641293]  max|de|= -3.88e-07  lindep= 0.828
+davidson 52 222  |r|= 0.000278  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858317  0.23082906  0.35640152  0.35641299]  max|de|= -2.05e-07  lindep= 0.826
+root 10 converged  |r|= 1.82e-05  e= 0.356401433497  max|de|= -9.08e-08
+davidson 53 223  |r|= 0.000278  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858317  0.23082906  0.35640143  0.35641285]  max|de|= -1.4e-07  lindep= 0.815
+davidson 54 224  |r|= 0.000211  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858317  0.23082906  0.35640144  0.3564124 ]  max|de|= -4.41e-07  lindep= 0.822
+davidson 55 225  |r|= 0.000189  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858317  0.23082906  0.35640147  0.35641016]  max|de|= -2.25e-06  lindep= 0.809
+root 11 converged  |r|= 0.000189  e= 0.35641015507  max|de|= -7.77e-16
+converge 56 12  |r|= 0.000189  e= [-0.04723914  0.04279981  0.04279983  0.10647055  0.15190764  0.17862823
+  0.17862826  0.2185831   0.21858317  0.23082906  0.35640147  0.35641016]  max|de|= -3.19e-15
+EA root 0 E = -0.04723913529638919  qpwt = 0.969028  conv = True
+EA root 1 E = 0.04279981053748554  qpwt = 0.95207  conv = True
+EA root 2 E = 0.04279983279399147  qpwt = 0.95207  conv = True
+EA root 3 E = 0.1064705478285503  qpwt = 0.705763  conv = True
+EA root 4 E = 0.1519076410996903  qpwt = 0.95905  conv = True
+EA root 5 E = 0.1786282340899148  qpwt = 0.959942  conv = True
+EA root 6 E = 0.178628260863808  qpwt = 0.959941  conv = True
+EA root 7 E = 0.2185830976374406  qpwt = 0.942907  conv = True
+EA root 8 E = 0.2185831677275865  qpwt = 0.942908  conv = True
+EA root 9 E = 0.2308290613602878  qpwt = 0.799731  conv = True
+EA root 10 E = 0.3564014669419504  qpwt = 0.61549  conv = True
+EA root 11 E = 0.356410155069752  qpwt = 0.614316  conv = True
+    CPU time for EA-CCSD    218.94 sec, wall time    219.01 sec

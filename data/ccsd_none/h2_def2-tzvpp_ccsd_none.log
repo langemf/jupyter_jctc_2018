@@ -1,0 +1,328 @@
+
+
+******** <class 'pyscf.scf.hf.RHF'> flags ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+DIIS start cycle = 1
+DIIS space = 8
+SCF tol = 1e-09
+SCF gradient tol = None
+max. SCF cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpgnD8QO
+max_memory 4000 MB (current use 75 MB)
+Set gradient conv threshold to 3.16228e-05
+Nelec from initial guess = 1.99955209064
+cond(S) = 2635.98667195
+E_coul = 0.715825457804208
+init E= -0.813071926370865
+    CPU time for initialize scf      0.02 sec, wall time      0.02 sec
+  HOMO = -0.554264067302796  LUMO = 0.135699438576267
+  mo_energy =
+[-0.55426407  0.13569944  0.30194821  0.59456139  0.66761582  0.66761582
+  1.08323152  1.1024297   1.1024297   1.52207976  2.3021635   2.3700567
+  3.12782087  3.12782087  3.34977704  3.34977704  3.64204985  3.86728576
+  3.86728576  4.04720556  4.04720556  4.08282653  4.08282653  4.62110376
+  5.6791327   5.6791327   5.76030792  6.90540836]
+E_coul = 0.642998096605601
+cycle= 1 E= -1.13200668259769  delta_E= -0.319  |g|= 0.0447  |ddm|= 0.472
+    CPU time for cycle= 1      0.00 sec, wall time      0.01 sec
+diis-norm(errvec)=0.169746
+diis-c [-0.02881364  1.        ]
+  HOMO = -0.601756905486071  LUMO = 0.164075578670252
+  mo_energy =
+[-0.60175691  0.16407558  0.30469467  0.63908717  0.6843469   0.6843469
+  1.09155969  1.11469327  1.11469327  1.52582675  2.33591126  2.40437994
+  3.1624661   3.1624661   3.39553109  3.39553109  3.66295901  3.88389742
+  3.88389742  4.07292435  4.07292435  4.10269399  4.10269399  4.63834468
+  5.7133554   5.7133554   5.79434044  6.9528585 ]
+E_coul = 0.655556948203294
+cycle= 2 E= -1.13292806965728  delta_E= -0.000921  |g|= 0.00708  |ddm|= 0.0316
+    CPU time for cycle= 2      0.01 sec, wall time      0.01 sec
+diis-norm(errvec)=0.0230028
+diis-c [ -7.33064266e-05  -1.44081709e-01   1.14408171e+00]
+  HOMO = -0.59466418591448  LUMO = 0.167313044468874
+  mo_energy =
+[-0.59466419  0.16731304  0.30662389  0.64548803  0.69208005  0.69208005
+  1.09625256  1.11953057  1.11953057  1.52855988  2.34645664  2.41721656
+  3.17454131  3.17454131  3.41110301  3.41110301  3.67415583  3.89341937
+  3.89341937  4.08314098  4.08314098  4.11296551  4.11296551  4.64825352
+  5.7266104   5.7266104   5.80807666  6.97085194]
+E_coul = 0.65797407161207
+cycle= 3 E= -1.13295869532686  delta_E= -3.06e-05  |g|= 0.000783  |ddm|= 0.00823
+    CPU time for cycle= 3      0.01 sec, wall time      0.01 sec
+diis-norm(errvec)=0.00163323
+diis-c [ -5.56541008e-08   2.90238275e-02  -2.53141080e-01   1.22411725e+00]
+  HOMO = -0.594259627247718  LUMO = 0.167542428018565
+  mo_energy =
+[-0.59425963  0.16754243  0.30672324  0.64582158  0.69253508  0.69253508
+  1.09658214  1.11987237  1.11987237  1.52878489  2.34703583  2.41793162
+  3.17523447  3.17523447  3.41187863  3.41187863  3.67479285  3.89400172
+  3.89400172  4.08378113  4.08378113  4.11360779  4.11360779  4.64886221
+  5.72734163  5.72734163  5.80879581  6.97171399]
+E_coul = 0.658168486294372
+cycle= 4 E= -1.1329589953265  delta_E= -3e-07  |g|= 3e-05  |ddm|= 0.00112
+    CPU time for cycle= 4      0.00 sec, wall time      0.01 sec
+diis-norm(errvec)=5.95148e-05
+diis-c [ -8.73943695e-11  -8.75196536e-03   7.75482910e-02  -3.81380929e-01
+   1.31258460e+00]
+  HOMO = -0.594251390495089  LUMO = 0.167550772784868
+  mo_energy =
+[-0.59425139  0.16755077  0.30673095  0.64583344  0.692551    0.692551
+  1.09659951  1.11988545  1.11988545  1.52879566  2.3470618   2.41795567
+  3.17525755  3.17525755  3.41190582  3.41190582  3.67482196  3.8940268
+  3.8940268   4.08380425  4.08380425  4.1136338   4.1136338   4.64888859
+  5.72737006  5.72737006  5.80882547  6.97174833]
+E_coul = 0.65817319496416
+cycle= 5 E= -1.13295899578117  delta_E= -4.55e-10  |g|= 1.21e-06  |ddm|= 5.33e-05
+    CPU time for cycle= 5      0.01 sec, wall time      0.01 sec
+  HOMO = -0.594250644069661  LUMO = 0.167550485340572
+  mo_energy =
+[-0.59425064  0.16755049  0.30672989  0.645833    0.69255044  0.69255044
+  1.09659871  1.11988489  1.11988489  1.5287952   2.34706082  2.41795458
+  3.17525657  3.17525657  3.41190471  3.41190471  3.67482095  3.8940259
+  3.8940259   4.08380328  4.08380328  4.11363282  4.11363282  4.64888765
+  5.727369    5.727369    5.80882444  6.97174721]
+E_coul = 0.658173381342052
+Extra cycle  E= -1.13295899578157  delta_E= -4e-13  |g|= 1.68e-07  |ddm|= 7.12e-07
+    CPU time for scf_cycle      0.05 sec, wall time      0.05 sec
+    CPU time for SCF      0.05 sec, wall time      0.05 sec
+converged SCF energy = -1.13295899578157
+RHF E = -1.13295899578
+RHF eps = [-0.59425064  0.16755049  0.30672989  0.645833    0.69255044  0.69255044
+  1.09659871  1.11988489  1.11988489  1.5287952   2.34706082  2.41795458
+  3.17525657  3.17525657  3.41190471  3.41190471  3.67482095  3.8940259
+  3.8940259   4.08380328  4.08380328  4.11363282  4.11363282  4.64888765
+  5.727369    5.727369    5.80882444  6.97174721]
+    CPU time for CCSD integral transformation      0.03 sec, wall time      0.04 sec
+
+******** <class 'pyscf.cc.rccsd.RCCSD'> flags ********
+CCSD nocc = 1, nvir = 27
+frozen orbitals []
+max_cycle = 200
+direct = 0
+conv_tol = 1e-07
+conv_tol_normt = 1e-05
+diis_space = 6
+diis_start_cycle = 0
+diis_start_energy_diff = 1e+09
+max_memory 4000 MB (current use 80 MB)
+Init t2, MP2 energy = -0.0316813762297753
+    CPU time for init mp2      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:27]      0.02 sec, wall time      0.01 sec
+    CPU time for vvvv      0.02 sec, wall time      0.01 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3916 MB,  nocc,nvir = 1,27  blksize = 1,27
+    CPU time for ovvv [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for wOVov [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for woVoV [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for contract occ [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for contract loop      0.03 sec, wall time      0.01 sec
+    CPU time for update t1 t2      0.03 sec, wall time      0.01 sec
+istep = 0  E(CCSD) = -0.0369825645846498  dE = -0.0369825646  norm(t1,t2) = 0.0297657
+    CPU time for CCSD iter      0.03 sec, wall time      0.01 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:27]      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv      0.00 sec, wall time      0.01 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3916 MB,  nocc,nvir = 1,27  blksize = 1,27
+    CPU time for ovvv [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for wOVov [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for woVoV [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for contract occ [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for contract loop      0.01 sec, wall time      0.01 sec
+    CPU time for update t1 t2      0.01 sec, wall time      0.01 sec
+DIIS for step 1
+istep = 1  E(CCSD) = -0.038565620453193  dE = -0.00158305587  norm(t1,t2) = 0.010299
+    CPU time for CCSD iter      0.01 sec, wall time      0.01 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:27]      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv      0.00 sec, wall time      0.01 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3916 MB,  nocc,nvir = 1,27  blksize = 1,27
+    CPU time for ovvv [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for wOVov [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for woVoV [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for contract occ [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for contract loop      0.01 sec, wall time      0.01 sec
+    CPU time for update t1 t2      0.01 sec, wall time      0.01 sec
+diis-c [ -8.35554820e-06   1.00000000e+00]
+DIIS for step 2
+istep = 2  E(CCSD) = -0.039086178903543  dE = -0.00052055845  norm(t1,t2) = 0.00399478
+    CPU time for CCSD iter      0.01 sec, wall time      0.01 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:27]      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv      0.00 sec, wall time      0.01 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3916 MB,  nocc,nvir = 1,27  blksize = 1,27
+    CPU time for ovvv [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for wOVov [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for woVoV [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for contract occ [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for contract loop      0.01 sec, wall time      0.01 sec
+    CPU time for update t1 t2      0.01 sec, wall time      0.01 sec
+diis-c [ -7.73787519e-08  -6.52381627e-01   1.65238163e+00]
+DIIS for step 3
+istep = 3  E(CCSD) = -0.0393890782489668  dE = -0.000302899345  norm(t1,t2) = 0.0016379
+    CPU time for CCSD iter      0.01 sec, wall time      0.01 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:27]      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv      0.00 sec, wall time      0.01 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3916 MB,  nocc,nvir = 1,27  blksize = 1,27
+    CPU time for ovvv [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for wOVov [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for woVoV [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for contract occ [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for contract loop      0.01 sec, wall time      0.01 sec
+    CPU time for update t1 t2      0.01 sec, wall time      0.01 sec
+diis-c [ -2.97700420e-10   3.03326941e-01  -7.89500351e-01   1.48617341e+00]
+DIIS for step 4
+istep = 4  E(CCSD) = -0.0393802123205437  dE = 8.86592842e-06  norm(t1,t2) = 0.000127226
+    CPU time for CCSD iter      0.01 sec, wall time      0.01 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:27]      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv      0.00 sec, wall time      0.01 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3916 MB,  nocc,nvir = 1,27  blksize = 1,27
+    CPU time for ovvv [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for wOVov [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for woVoV [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for contract occ [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for contract loop      0.01 sec, wall time      0.01 sec
+    CPU time for update t1 t2      0.01 sec, wall time      0.01 sec
+diis-c [ -4.01778610e-12  -1.01883750e-01   2.65659488e-01  -5.14173045e-01
+   1.35039731e+00]
+DIIS for step 5
+istep = 5  E(CCSD) = -0.0393804777371354  dE = -2.65416592e-07  norm(t1,t2) = 7.27239e-06
+    CPU time for CCSD iter      0.01 sec, wall time      0.01 sec
+    CPU time for vvvv-tau      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv [0:27]      0.00 sec, wall time      0.00 sec
+    CPU time for vvvv      0.00 sec, wall time      0.01 sec
+    CPU time for woooo      0.00 sec, wall time      0.00 sec
+max_memory 3916 MB,  nocc,nvir = 1,27  blksize = 1,27
+    CPU time for ovvv [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for wOVov [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for woVoV [0:1]      0.00 sec, wall time      0.00 sec
+    CPU time for contract occ [0:1]      0.01 sec, wall time      0.00 sec
+    CPU time for contract loop      0.01 sec, wall time      0.01 sec
+    CPU time for update t1 t2      0.01 sec, wall time      0.01 sec
+diis-c [ -4.45754544e-14   3.83266510e-02  -9.98875959e-02   1.94811618e-01
+  -5.53094411e-01   1.41984374e+00]
+DIIS for step 6
+istep = 6  E(CCSD) = -0.0393804696962615  dE = 8.04087394e-09  norm(t1,t2) = 9.53956e-07
+    CPU time for CCSD iter      0.01 sec, wall time      0.01 sec
+    CPU time for CCSD      0.09 sec, wall time      0.08 sec
+CCSD converged
+E(CCSD) = -1.172339465477827  E_corr = -0.03938046969626149
+    CPU time for EOM-CCSD shared one-electron intermediates      0.00 sec, wall time      0.00 sec
+    CPU time for EOM-CCSD shared two-electron intermediates      0.00 sec, wall time      0.00 sec
+    CPU time for EOM-CCSD IP intermediates      0.00 sec, wall time      0.00 sec
+tol 1e-07  toloose 0.000316228
+max_cycle 200  max_space 203  max_memory 2000  incore True
+davidson 0 1  |r|= 0.175  e= [ 0.63262245]  max|de|= 0.633  lindep=    1
+davidson 1 2  |r|= 0.0236  e= [ 0.60300925]  max|de|= -0.0296  lindep= 0.94
+davidson 2 3  |r|= 0.00187  e= [ 0.6027939]  max|de|= -0.000215  lindep= 0.984
+davidson 3 4  |r|= 7.54e-05  e= [ 0.60279655]  max|de|= 2.64e-06  lindep= 0.97
+davidson 4 5  |r|= 2.31e-06  e= [ 0.60279678]  max|de|= 2.36e-07  lindep=  0.9
+root 0 converged  |r|= 1.15e-15  e= 0.602796783309  max|de|= 2.32e-09
+converge 5 6  |r|= 1.15e-15  e= [ 0.60279678]  max|de|= 2.32e-09
+IP root 0 E = 0.602796783308546  qpwt = 0.970686  conv = True
+    CPU time for IP-CCSD      0.01 sec, wall time      0.01 sec
+    CPU time for EOM-CCSD shared one-electron intermediates      0.00 sec, wall time      0.00 sec
+    CPU time for EOM-CCSD EA intermediates      0.06 sec, wall time      0.06 sec
+tol 1e-07  toloose 0.000316228
+max_cycle 200  max_space 236  max_memory 2000  incore True
+davidson 0 12  |r|= 0.367  e= [ 0.1725728   0.3104465   0.65626855  0.69782917  0.69782917  1.09892396
+  1.12088376  1.12088376  1.52935874  2.351979    2.42209708  3.17702746]  max|de|= 3.18  lindep=    1
+davidson 1 24  |r|= 0.858  e= [ 0.15560222  0.29636003  0.60805758  0.65908191  0.65908191  1.00061779
+  1.07058904  1.07058904  1.50288117  2.20797768  2.2262405   3.30100414]  max|de|= -0.196  lindep= 0.744
+davidson 2 36  |r|= 0.468  e= [ 0.15511063  0.29589882  0.59139135  0.65497124  0.65497124  1.06668958
+  1.01563745  1.21416163  1.48544144  2.31697677  2.34433444  3.1379505 ]  max|de|= -0.163  lindep= 0.746
+davidson 3 48  |r|= 0.733  e= [ 0.1551625   0.29595188  0.58993152  0.65506191  0.65506191  1.03404145
+  1.12521789  1.12343038  1.5069715   2.40433348  2.29316234  3.09610628]  max|de|= 0.11  lindep= 0.78
+davidson 4 60  |r|= 0.407  e= [ 0.15515954  0.29595641  0.58958856  0.65515533  0.65515533  1.08222935
+  1.11412661  1.11371433  1.46477513  2.25608305  2.37241482  3.13719112]  max|de|= -0.148  lindep= 0.872
+root 0 converged  |r|= 3.21e-07  e= 0.155159579559  max|de|= 4.04e-08
+root 1 converged  |r|= 3.57e-06  e= 0.295956335371  max|de|= -7.69e-08
+davidson 5 72  |r|= 0.493  e= [ 0.15515958  0.29595634  0.58960608  0.6551763   0.6551763   1.06240937
+  1.11320741  1.11251965  1.54550659  2.31662738  2.46196262  3.11207645]  max|de|= 0.0895  lindep= 0.874
+davidson 6 82  |r|= 0.183  e= [ 0.15515958  0.29595633  0.58960644  0.65517941  0.65517941  1.06121529
+  1.11080257  1.11015137  1.54429538  2.29564563  2.34320325  3.12031704]  max|de|= -0.119  lindep= 0.694
+root 2 converged  |r|= 1.33e-06  e= 0.589606474599  max|de|= 3.02e-08
+davidson 7 92  |r|= 0.122  e= [ 0.15515958  0.29595633  0.58960647  0.65518006  0.65518006  1.06097407
+  1.10091903  1.10045928  1.54077474  2.28277232  2.33301647  3.10997738]  max|de|= -0.0129  lindep= 0.868
+root 3 converged  |r|= 4.58e-07  e= 0.655180109379  max|de|= 4.96e-08
+root 4 converged  |r|= 4.58e-07  e= 0.655180109379  max|de|= 4.96e-08
+davidson 8 101  |r|= 0.0921  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.06095123
+  1.13965429  1.09618786  1.54362753  2.28846422  2.32806119  3.1082687 ]  max|de|= 0.0392  lindep= 0.883
+root 5 converged  |r|= 4.35e-05  e= 1.06095120069  max|de|= -2.59e-08
+davidson 9 108  |r|= 0.0537  e= [ 0.15515958  0.29595632  0.58960648  0.65518011  0.65518011  1.0609512
+  1.13937952  1.09576716  1.54381085  2.2868949   2.32454146  3.10829702]  max|de|= -0.00352  lindep= 0.889
+davidson 10 114  |r|= 0.144  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.06095125
+  1.09579805  1.09582809  1.54383424  2.28874855  2.31852646  3.10626392]  max|de|= -0.0436  lindep= 0.881
+davidson 11 120  |r|= 0.0421  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.06095085
+  1.09583733  1.09585132  1.54383766  2.28776049  2.32385497  3.10839901]  max|de|= 0.00533  lindep= 0.909
+root 5 converged  |r|= 4.61e-06  e= 1.06095077335  max|de|= -8.01e-08
+davidson 12 127  |r|= 0.0316  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.06095077
+  1.13928132  1.09585398  1.54383715  2.28807575  2.32358365  3.10876145]  max|de|= 0.0434  lindep= 0.865
+davidson 13 133  |r|= 0.283  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.06095079
+  1.13926701  1.09585449  1.54383621  2.28854445  2.32598888  3.10887654]  max|de|= 0.00241  lindep= 0.887
+davidson 14 139  |r|= 0.0582  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.0609508
+  1.09585414  1.09585463  1.54383575  2.28795922  2.32390621  3.10890171]  max|de|= -0.00208  lindep= 0.844
+root 7 converged  |r|= 9.33e-07  e= 1.09585465149  max|de|= 1.91e-08
+root 8 converged  |r|= 2.02e-06  e= 1.54383574018  max|de|= -7.11e-09
+davidson 15 145  |r|= 0.182  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.0609508
+  1.09585463  1.09585465  1.54383574  2.28922397  2.31999843  3.10890588]  max|de|= -0.00391  lindep= 0.882
+root 11 converged  |r|= 1.79e-05  e= 3.10890594352  max|de|= 6.48e-08
+davidson 16 149  |r|= 0.0269  e= [ 0.15515958  0.29595632  0.58960648  0.65518011  0.65518011  1.0609508
+  1.13926564  1.09585465  1.54383574  2.28813194  2.32459703  3.10890594]  max|de|= 0.0434  lindep= 0.929
+davidson 17 152  |r|= 0.0254  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.0609508
+  1.09585464  1.09585465  1.54383574  2.28813857  2.32671001  3.10890594]  max|de|= -0.0434  lindep= 0.914
+root 6 converged  |r|= 7.16e-07  e= 1.09585465033  max|de|= 1.2e-08
+davidson 18 155  |r|= 0.0177  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.0609508
+  1.09585465  1.1393326   1.54383574  2.28813891  2.32765385  3.10890594]  max|de|= 0.0435  lindep= 0.928
+davidson 19 158  |r|= 0.0168  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.0609508
+  1.09585465  1.09585465  1.54383574  2.28813256  2.32674644  3.10890594]  max|de|= -0.000907  lindep= 0.904
+davidson 20 160  |r|= 0.0108  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.0609508
+  1.09585465  1.09585465  1.54383574  2.28812796  2.32555343  3.10890594]  max|de|= -0.00119  lindep= 0.91
+davidson 21 162  |r|= 0.00873  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.0609508
+  1.09585465  1.09585465  1.54383574  2.28812758  2.32529218  3.10890594]  max|de|= -0.000261  lindep= 0.914
+root 9 converged  |r|= 5.61e-07  e= 2.28812755684  max|de|= -2.32e-08
+davidson 22 164  |r|= 0.00453  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.0609508
+  1.09585465  1.09585465  1.54383574  2.28812756  2.32554704  3.10890594]  max|de|= 0.000255  lindep= 0.926
+davidson 23 165  |r|= 0.00116  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.0609508
+  1.09585465  1.09585465  1.54383574  2.28812756  2.32567055  3.10890594]  max|de|= 0.000124  lindep= 0.938
+davidson 24 166  |r|= 0.000512  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.06095082
+  1.09585465  1.09585465  1.54383574  2.28812756  2.32569165  3.10890594]  max|de|= 2.11e-05  lindep= 0.922
+davidson 25 167  |r|= 0.000248  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.06095083
+  1.09585465  1.09585465  1.54383574  2.28812756  2.32568981  3.10890594]  max|de|= -1.84e-06  lindep= 0.938
+davidson 26 168  |r|= 8.97e-05  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.06095083
+  1.09585465  1.09585465  1.54383574  2.28812756  2.3256888   3.10890594]  max|de|= -1.02e-06  lindep= 0.925
+davidson 27 169  |r|= 5.52e-05  e= [ 0.15515958  0.29595633  0.58960648  0.65518011  0.65518011  1.06095083
+  1.09585465  1.09585465  1.54383574  2.28812756  2.32568779  3.10890594]  max|de|= -1e-06  lindep= 0.913
+davidson 28 170  |r|= 0.233  e= [ 0.15515958  0.29595633  0.58960648  1.31777596  0.65518011  1.06095083
+  1.09585465  1.09585465  1.54383574  2.28812756  2.3256882   3.10890594]  max|de|= 0.663  lindep= 0.847
+davidson 29 172  |r|= 1.6e-05  e= [ 0.15515958  0.29595633  0.58960648  0.65518012  0.65518011  1.06095083
+  1.09585465  1.09585465  1.54383574  2.28812756  2.32568792  3.10890594]  max|de|= -2.76e-07  lindep= 0.949
+root 10 converged  |r|= 3.37e-06  e= 2.32568787066  max|de|= -5.15e-08
+converge 30 173  |r|= 1.6e-05  e= [ 0.15515958  0.29595633  0.58960648  0.65518012  0.65518011  1.06095083
+  1.09585465  1.09585465  1.54383574  2.28812756  2.32568787  3.10890594]  max|de|= -5.15e-08
+EA root 0 E = 0.1551595800744057  qpwt = 0.992319  conv = True
+EA root 1 E = 0.295956333268114  qpwt = 0.988059  conv = True
+EA root 2 E = 0.589606483834777  qpwt = 0.817829  conv = True
+EA root 3 E = 0.6551801184109324  qpwt = 0.973925  conv = True
+EA root 4 E = 0.6551801106881361  qpwt = 0.973925  conv = True
+EA root 5 E = 1.060950826514029  qpwt = 0.440379  conv = True
+EA root 6 E = 1.095854649258336  qpwt = 0.652616  conv = True
+EA root 7 E = 1.095854651358512  qpwt = 0.652616  conv = True
+EA root 8 E = 1.543835737223751  qpwt = 0.586284  conv = True
+EA root 9 E = 2.288127556925068  qpwt = 0.862377  conv = True
+EA root 10 E = 2.325687870662967  qpwt = 0.795183  conv = True
+EA root 11 E = 3.108905943553445  qpwt = 0.933478  conv = True
+    CPU time for EA-CCSD      5.97 sec, wall time      5.97 sec

@@ -1,0 +1,102 @@
+
+
+******** <class 'pyscf.scf.hf.RHF'> flags ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+DIIS start cycle = 1
+DIIS space = 8
+SCF tol = 1e-09
+SCF gradient tol = None
+max. SCF cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpUGXeU5
+max_memory 4000 MB (current use 76 MB)
+Set gradient conv threshold to 3.16228e-05
+Nelec from initial guess = 1.99957525137
+cond(S) = 16.1466106102
+E_coul = 1.02368677435079
+init E= -2.85934749153542
+    CPU time for initialize scf      0.00 sec, wall time      0.02 sec
+  HOMO = -0.918094898055326  LUMO = 0.828698179331663
+  mo_energy =
+[-0.9180949   0.82869818  1.4989378   1.4989378   1.4989378   6.31149337
+  6.35523092  6.35523092  6.35523092  6.35523092  6.35523092  7.8460624
+  7.8460624   7.8460624 ]
+E_coul = 1.02560175095294
+cycle= 1 E= -2.85989288814588  delta_E= -0.000545  |g|= 0.00433  |ddm|= 0.0209
+    CPU time for cycle= 1      0.01 sec, wall time      0.00 sec
+diis-norm(errvec)=0.00343286
+diis-c [ -1.17845157e-05   1.00000000e+00]
+  HOMO = -0.917146655917435  LUMO = 0.829445270660818
+  mo_energy =
+[-0.91714666  0.82944527  1.50041538  1.50041538  1.50041538  6.31358157
+  6.35741155  6.35741155  6.35741155  6.35741155  6.35741155  7.84801766
+  7.84801766  7.84801766]
+E_coul = 1.02605601196944
+cycle= 2 E= -2.8598953724676  delta_E= -2.48e-06  |g|= 0.000558  |ddm|= 0.00296
+    CPU time for cycle= 2      0.00 sec, wall time      0.00 sec
+diis-norm(errvec)=0.000430398
+diis-c [ -2.55756448e-08  -1.31895176e-01   1.13189518e+00]
+  HOMO = -0.916889772300709  LUMO = 0.829571693653475
+  mo_energy =
+[-0.91688977  0.82957169  1.50071678  1.50071678  1.50071678  6.31414911
+  6.35787901  6.35787901  6.35787901  6.35787901  6.35787901  7.84856346
+  7.84856346  7.84856346]
+E_coul = 1.02615056078807
+cycle= 3 E= -2.85989542561269  delta_E= -5.31e-08  |g|= 1.68e-05  |ddm|= 0.000498
+    CPU time for cycle= 3      0.01 sec, wall time      0.00 sec
+diis-norm(errvec)=1.58948e-05
+diis-c [ -2.77555756e-16   9.29045351e-03  -1.02232727e-01   1.09294227e+00]
+  HOMO = -0.916870147292488  LUMO = 0.829579765854752
+  mo_energy =
+[-0.91687015  0.82957977  1.5007362   1.5007362   1.5007362   6.31419243
+  6.3579095   6.3579095   6.3579095   6.3579095   6.3579095   7.84860595
+  7.84860595  7.84860595]
+E_coul = 1.02615513019326
+cycle= 4 E= -2.85989542568444  delta_E= -7.18e-11  |g|= 1.7e-09  |ddm|= 1.9e-05
+    CPU time for cycle= 4      0.00 sec, wall time      0.00 sec
+  HOMO = -0.916870147745593  LUMO = 0.829579768056465
+  mo_energy =
+[-0.91687015  0.82957977  1.5007362   1.5007362   1.5007362   6.31419244
+  6.3579095   6.3579095   6.3579095   6.3579095   6.3579095   7.84860596
+  7.84860596  7.84860596]
+E_coul = 1.02615512966321
+Extra cycle  E= -2.85989542568444  delta_E= -2.22e-15  |g|= 2.02e-10  |ddm|= 1.47e-09
+    CPU time for scf_cycle      0.03 sec, wall time      0.05 sec
+    CPU time for SCF      0.03 sec, wall time      0.05 sec
+converged SCF energy = -2.85989542568444
+RHF E = -2.85989542568
+RHF eps = [-0.91687015  0.82957977  1.5007362   1.5007362   1.5007362   6.31419244
+  6.3579095   6.3579095   6.3579095   6.3579095   6.3579095   7.84860596
+  7.84860596  7.84860596]
+    CPU time for GW integral transformation      0.00 sec, wall time      0.00 sec
+
+******** <class 'pyscf.gw.gf2.GF2'> flags ********
+method = GF2
+GF2 nocc = 1, nvir = 13
+use perturbative linearized QP eqn = False
+use diagonal approximation for sigma = True
+  HOMO = -0.902291335642542  LUMO = 0.818594981671175
+  GW mo_energy =
+[-0.90229134  0.81859498  1.46926331  1.46926331  1.46926331  6.18559826
+  6.30740593  6.30740593  6.30740593  6.30740593  6.30740593  7.70798663
+  7.70798663  7.70798663]
+    CPU time for GF2      0.01 sec, wall time      0.01 sec
+    CPU time for GW integral transformation      0.00 sec, wall time      0.00 sec
+
+******** <class 'pyscf.gw.gf2.GF2'> flags ********
+method = GF2
+GF2 nocc = 1, nvir = 13
+use perturbative linearized QP eqn = False
+use diagonal approximation for sigma = True
+  HOMO = -0.902291335642542  LUMO = 0.818594981671175
+  GW mo_energy =
+[-0.90229134  0.81859498  0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.          0.        ]
+    CPU time for GF2      0.01 sec, wall time      0.00 sec
+IP root 0 E =  -0.902291335643
+EA root 0 E =  0.818594981671
